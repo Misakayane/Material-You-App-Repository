@@ -10,7 +10,7 @@
   <img src="https://i.ibb.co/YTXvX49/Wallpaper3.png">
 </p>
 <p align="center">
- <img src="https://img.shields.io/github/stars/CHNJohnHK/Material-You-App-Repository?style=for-the-badge&colorA=FFEBEB&colorB=FFD9DC&logo=github&logoColor=black">
+ <img src="https://img.shields.io/github/stars/Misakayane/Material-You-App-Repository?style=for-the-badge&colorA=FFEBEB&colorB=FFD9DC&logo=github&logoColor=black">
 </p>
 <p align="center">
   <a href="https://t.me/misakamaterialyou">
