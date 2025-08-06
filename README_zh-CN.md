@@ -23,6 +23,9 @@
 
 <p align="center"><b>创作不易，希望大家多多点点 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="20" height="20"/><br>do，御坂恳求的说道！</b></p>
 
+## 🚧On Repairing
+仓库修缮中，暂不添加新应用。如果您有新的发现，欢迎向[此文档](https://github.com/Misakayane/Material-You-App-Repository/blob/main/NewApps.md)提交PR。感谢每个人的辛勤付出，do，御坂感激的说道！
+
 ## ⛩️序言
 ### ❓️什么是 Material Design 3？Material You 又是什么？
 *以下内容部分来源于[谷歌官方文档](https://m3.material.io/)*
@@ -48,15 +51,14 @@ Material Design 3 伴随着 Android 12 而来。它的诞生，彻底改变了�
 ### 🏷️标签说明
 针对每个应用不同的情况，我在列表中给出了几种标签，它们的含义见下：
 
-（非常绕，希望不要被绕晕…）
 - **基础标签，区分应用 UI 设计的标准**
 
 	- **`MD`**：针对**完全**使用基于 MD3 设计的控件，但**不支持** Monet 取色的应用。
 	- **`MD-`**：针对**部分**使用基于 MD3 设计的控件的应用。这种情况很常见，比如有的应用仍然在使用 MD2 时期的 switch。这种应用是否支持 Monet 取色视下面的 "Monet" 标签而定。
 	- **`Monet`**：针对**支持** Monet 取色，但应用整体设计**完全非**MD3的应用。
 	- **`Full`**：既**支持** Monet 取色，又整体**完全**采用 MD3 设计，标准化的遵循 Material Design 3 设计的应用。
-	- **`Multi`**：对平板、折叠屏等设备不同尺寸的屏幕适配效果很好的应用（注意，这个标签只针对对大屏设备有专门设计的分栏式布局的应用，简单的将应用元素拉伸并不能称得上是适配较好）。
-    - **`-MD`**：从某个版本开始**停止使用** MD3 设计的应用。
+	- **`Multi`**：对不同尺寸的屏幕，尤其是平板、折叠屏等设备适配效果很好的应用（注意，这个标签只针对对大屏设备有专门设计的分栏式布局的应用，简单的将应用元素拉伸并不能称得上是适配较好）。
+	- **`M3E`**：适配了 Material 3 Expressive 控件的应用。
 
 <div align="center">
 
@@ -72,12 +74,10 @@ Material Design 3 伴随着 Android 12 而来。它的诞生，彻底改变了�
 - **其他标签**
 
 	- **`MOD`**：由第三方制作的 MOD 应用，非官方支持。
-	- **`TODO`**：已经有样图，但未正式发布的 app，一般可以在 github 上一睹软件全貌。
+	- **`TODO`**：已经有样图，但未正式发布的 app，一般可以在 GitHub 上一睹软件全貌。
 	- **`FOSS`**：FOSS 即 Free & Open Sourse Software 的简写，这个标签针对的是自由开放的**开源**应用，它们大多数是免费的。如果一个应用有 FOSS 和付费两个版本，将优先收录 FOSS 版本。
-    -  **`-FOSS`**: 从某个版本开始**不再开源**的应用。
 	- **`💴`**：需要付费解锁一些功能的应用。
 	- **`👻`**：因为某些原因而停更的应用。
-	- **`⚠️`**：违反开源协议、可能侵犯其他开发者权益、恶意滥用系统权限，或者存在其他不正当行为的应用，证据会在其后进行标注。
 
 ### 💖感谢
 - **@hushenghao** 和 **@CHNJohnHK**，是他们在我不在的这段时间保留下了这个项目并持续很长一段时间进行维护，由衷地感谢他们！
