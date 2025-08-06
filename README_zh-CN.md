@@ -10,7 +10,7 @@
   <img src="https://i.ibb.co/3CYKN00/Wallpaper4.png">
 </p>
 <p align="center">
- <img src="https://img.shields.io/github/stars/CHNJohnHK/Material-You-App-Repository?style=for-the-badge&colorA=FFEBEB&colorB=FFD9DC&logo=github&logoColor=black">
+ <img src="https://img.shields.io/github/stars/Misakayane/Material-You-App-Repository?style=for-the-badge&colorA=FFEBEB&colorB=FFD9DC&logo=github&logoColor=black">
 </p>
 <p align="center">
   <a href="https://t.me/misakamaterialyou">
@@ -80,7 +80,7 @@ Material Design 3 伴随着 Android 12 而来。它的诞生，彻底改变了�
 	- **`⚠️`**：违反开源协议、可能侵犯其他开发者权益、恶意滥用系统权限，或者存在其他不正当行为的应用，证据会在其后进行标注。
 
 ### 💖感谢
-- **御坂 13766 号**，本项目的创建者。
+- **@hushenghao** 和 **@CHNJohnHK**，是他们在我不在的这段时间保留下了这个项目并持续很长一段时间进行维护，由衷地感谢他们！
 - **特别感谢**：[Material-You-app-list](https://github.com/nyas1/Material-You-app-list)，目前最著名的 Material You APP 收集项目，它为我的收集工作提供了莫大的帮助。  
 - 列表建设初期提供素材、线索以及为我提供建议的大佬们。
 - [F-Droid](https://f-droid.org)，F-Droid 里收录了很多基于最新设计的开源 APP，为本列表中的应用来源提供不少线索。
