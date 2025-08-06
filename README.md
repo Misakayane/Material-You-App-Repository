@@ -24,6 +24,9 @@
 
 <p align="center"><b>Welcome to  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="20" height="20"/>  the repo to support my work if you like it!</b></p>
 
+## 🚧On Repairing
+Please don't add new apps to this repository, and you could pull request to [this document](https://github.com/Misakayane/Material-You-App-Repository/blob/main/NewApps.md) if you find new Material Design 3 apps. Thanks for your hard work!
+
 ## ⛩️Introduction
 ### ❓️What is Material You?
 According to [m3.material.io](https://m3.material.io), Material You is the new Material visual style and set of features embracing the personal and expressive needs of individual users. It's one part of Material Design 3, which is the third generation of material launched in 2021, an open-sourse user interface design system created by Google. 
@@ -39,7 +42,6 @@ However in fact, sometimes Material You refers to the application which (may onl
 	- **`Monet`** - App that **only** supports Dynamic Color, whose components are **completely not** in MD3 style.
 	- **`Full`** - App that **completely** follows Material Design 3, including completely-used MD3 components and Dynamic Color.
 	- **`Multi`** - App that is more friendly for different devices, such as pad and fold.
-     - **`-MD`** - App whose components have **abandoned** following Material Design 3 since a certain version.
 
 <div align="center">
 
@@ -57,7 +59,6 @@ However in fact, sometimes Material You refers to the application which (may onl
 	- **`MOD`** - App that is modified by unofficial teams. Its original app doesn't apply Material You completely.
 	- **`TODO`** - App that has no releases yet. You could preview it in its github repository.
 	- **`FOSS`** - App that is free and open-sourse. No indicator means app is Closed Source.
-     - **`-FOSS`** - App that not longer be free and open-sourse since a certain version.
 	- **`💴`** - App that needs to pay to activate some features.
 	- **`👻`** - App that stops updating for some reasons.
 	- **`⚠️`** - App that violates the open source licenses, may infringes on the rights and interests of other developers, maliciously abuses system permissions, or has other improper behaviors. Evidence will be marked behind.
