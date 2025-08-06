@@ -1,0 +1,1603 @@
+<div align="left">
+<a href="/README_zh-CN.md">中文</a> &nbsp;|&nbsp;
+<a href="/README.md">English</a>
+</div>
+
+
+<h1 align="center">Misaka's Material You App Repository</h1>
+
+<p align="center">
+  <img src="https://i.ibb.co/YTXvX49/Wallpaper3.png">
+</p>
+<p align="center">
+ <img src="https://img.shields.io/github/stars/CHNJohnHK/Material-You-App-Repository?style=for-the-badge&colorA=FFEBEB&colorB=FFD9DC&logo=github&logoColor=black">
+</p>
+<p align="center">
+  <a href="https://t.me/misakamaterialyou">
+    <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&colorA=DAE9FC&colorB=056DE8&label=Channel&logo=telegram&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dtelegram%26queryKey%3Dmisakamaterialyou" alt="Telegram">
+  </a>
+  <a href="https://t.me/misakamaterialyouchat">
+    <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&colorA=DAE9FC&colorB=056DE8&label=Chat&logo=telegram&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dtelegram%26queryKey%3Dmisakamaterialyouchat" alt="Telegram">
+  </a>
+</p>
+
+
+<p align="center"><b>Welcome to  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="20" height="20"/>  the repo to support my work if you like it!</b></p>
+
+## ⛩️Introduction
+### ❓️What is Material You?
+According to [m3.material.io](https://m3.material.io), Material You is the new Material visual style and set of features embracing the personal and expressive needs of individual users. It's one part of Material Design 3, which is the third generation of material launched in 2021, an open-sourse user interface design system created by Google. 
+
+Different from the emphasis on right angles and shadows by Material Design 2, Material You applies more flat, round and personalized shapes. Additionally, Material You brings more friendly adaptation to Android devices with different screen sizes (Pad, fold, watch and so on) . And more importantly, it brings a new color mechanism - Dynamic Color, which can determine the accent color and main color of the application according to the wallpaper color of the user's device. 
+
+However in fact, sometimes Material You refers to the application which (may only) supports Dynamic Color, no matter what kind of style that application applies.
+### 🏷️Instructions for labels
+- **Basic Labels**
+
+	- **`MD`** - App whose components are **completely** in MD3 style but **doesn't support** Dynamic Color.
+	- **`MD-`** - App whose components are **partly** in MD3 style, which is common when a developer claims his application applies MD3 style but its switch or other component is not in MD3 style. If it supports Dynamic Color, a **`Monet`** label will be added.
+	- **`Monet`** - App that **only** supports Dynamic Color, whose components are **completely not** in MD3 style.
+	- **`Full`** - App that **completely** follows Material Design 3, including completely-used MD3 components and Dynamic Color.
+	- **`Multi`** - App that is more friendly for different devices, such as pad and fold.
+     - **`-MD`** - App whose components have **abandoned** following Material Design 3 since a certain version.
+
+<div align="center">
+
+|  | Fully Designed | Dynamic Color |
+|:-:|:-:|:-:|
+|**`MD`**|✅|🚫|
+|**`MD-`**|🚫|-|
+|**`Monet`**|🚫|✅|
+|**`Full`**|✅|✅|
+
+</div>
+
+- **Other Labels**
+
+	- **`MOD`** - App that is modified by unofficial teams. Its original app doesn't apply Material You completely.
+	- **`TODO`** - App that has no releases yet. You could preview it in its github repository.
+	- **`FOSS`** - App that is free and open-sourse. No indicator means app is Closed Source.
+     - **`-FOSS`** - App that not longer be free and open-sourse since a certain version.
+	- **`💴`** - App that needs to pay to activate some features.
+	- **`👻`** - App that stops updating for some reasons.
+	- **`⚠️`** - App that violates the open source licenses, may infringes on the rights and interests of other developers, maliciously abuses system permissions, or has other improper behaviors. Evidence will be marked behind.
+
+### 💖Thanks to
+- **Misaka 13766**, the creator of this repository.
+- **SPECIAL THANKS TO** [nyas1/Material-You-app-list](https://github.com/nyas1/Material-You-app-list/), the most popular material app collecting project, which helps me a lot. [Click here](https://github.com/nyas1/Material-You-app-list) to join Telegram Channel.
+- Friends who provide many materials for me and make suggestions to me to make this repository more pretty.
+- F-Droid, which gives me a convenient access to FOSS and Material You apps.
+- Developers who keep using Material You. You have made an indelible contribution to Google's software ecosystem!
+- Telegram Channels: [某不知名杂货铺](https://t.me/youthkinga), [HUC-Projects](https://t.me/anubis_recommended), [WPX Projects](https://t.me/WSTprojects), [Android Reposity](https://t.me/AndroidRepo) and so on.
+- And **ALL OF YOU WHO LOVE MATERIAL YOU!**
+## ⚠️Mentions
+- **You'll find some links from Coolapk, like the link of application [Light Bookkeeping](https://www.coolapk.com/apk/kylec.me.lightbookkeeping) , which you may not access it unless you're in China or you use VPN.** I'm sorry about it, but Coolapk has fxxking banned for non-Chinese people and some Chinese developers choose to upload their applications ONLY to Coolapk to update apps and receive feeds more conveniently. When you meet some unaccessble links, please use VPN. Sorry again about that qwq
+- **This list is Android-only**, which may be different from nyas1's list, because I believe that Material You design is unsuitable in other systems which have their own styles, like Windows with fluent UI and WinUI 3, and iOS. Maybe I'll change my idea, but not now.
+- This list is a compilation of apps that adopt the Material You design guidelines and does not consider the functionality or utility of the listed apps. There may be other apps that follow MD3 guidelines, AND WELCOME TO REPORT NEW APPS TO ME www.
+- Some tags below might be wrong caused by my negligence, and with the development of application, some applications' interface may have changed a lot and some tags may become wrong. Please report wrong tags.
+- Please report any broken links.
+## 📜Applist Menu
+- **[🦖 Google Apps](#google-apps)**
+- **[👨‍💻 OEM Apps](#oem-apps)**
+	- **Moto MYUI**
+	- **Nothing OS** 
+	- **Octavi OS**
+	- **ASUS Zenui**
+- **[👥 Chat & Social Network](#chat--social-network)**
+	- **Contact**
+	- **Dialer**
+	- **SMS**
+	- **Telegram Clients**
+    - **Matrix Clients**
+	- **Encrypted Chatting**
+	- **Instagram Clients**
+	- **Reddit Clients**
+    - **Discord Clients**
+	- **Twitter (𝕏) Clients**
+	- **Mastodon and its Clients**
+	- **Lemmy Clients**
+	- **Other DAO Social Applications**
+	- **BBS**
+	- **Mail**  
+	- **Others**
+- **[🎵 Media](#media)**
+	- **Youtube Clients**
+	- **Youtube Music Clients**
+	- **Spotify Clients** 
+	- **Netease Cloud Music Clients**
+	- **Bilibili Clients**
+	- **Streaming Server Clients**
+	- **Anime Services**
+	- **Online Videos Services**
+	- **Offline Videos Services**
+	- **Online Music Services**
+	- **Offline Music Services**
+	- **Podcasts**
+	- **Lives**
+	- **Now Playing**
+	- **Media Tools**
+- **[✍ Writing & Drawing](#writing--drawing)**
+	- **Notes**
+	- **Markdown**
+	- **Handwritten**
+	- **Journal**
+	- **Drawboard**
+	- **Docs**
+	- **To-do**
+	- **Mind Maps**
+	- **Lyrics Editor**
+	- **Others**
+- **[🖼️ Pictures](#%EF%B8%8Fpictures)**
+	- **Camera**
+	- **Gallery**
+	- **Illustrations**
+	- **Editor**
+- **[🌐 Browser](#browser)**
+- **[📖 Readers](#readers)**
+	- **Novels**
+	- **RSS/News**
+	- **Comics**
+	- **Encyclopedia**
+- **[🌦️ Daily Life](#%EF%B8%8Fdaily-life)**
+	- **Bookkeeping**
+	- **Virtual Currency**
+	- **Card Case**
+	- **Calendar**
+	- **Weather**
+	- **Maps & Navigation**
+	- **Shopping**
+	- **Food**
+	- **Quote**
+	- **Health & Habits**
+	- **Study**
+	- **Language Learning**
+	- **Tracking Services**
+	- **Stocks**
+	- **Traffic**
+	- **Planting**
+	- **Babysitting**
+	- **Competitions**
+	- **Smart Home**
+	- **Others**
+- **[🖌️ Theming](#%EF%B8%8Ftheming)**
+	- **Launcher** 
+	- **Wallpapers**    
+	- **Icon Pack** 
+	- **Widget/KWGT**   
+	- **Dynamic Island** 
+	- **Native System Customization**
+	- **GBoard Customization**
+	- **Monet Theme for Other Apps**
+	- **Others**
+- **[⚙️ System Tools](#%EF%B8%8Fsystem-tools)**
+	- **File Browser**
+	- **Hardware Infomation**
+	- **App Manager**
+	- **Freezing Tool**
+	- **App Store**
+	- **Safety & Privacy**
+	- **Equalizer**
+	- **Permission Manager**
+	- **Shortcut**
+	- **Activity Manager**
+	- **Backup**
+	- **Battery Manager**
+	- **Screen Display**
+	- **TTS**  
+	- **Cleaner**  
+	- **Logger/Feedback**
+	- **Link Manager**
+	- **Installer**
+	- **Notification Filter**
+	- **Clipboard Manager**
+	- **Others**
+- **[🧰 Tools](#tools)**
+	- **Downloader**
+	- **App Downloader** 
+	- **Resources Searching Tool**   
+	- **Netdisk**
+	- **Keyboard**
+	- **Calculator**
+	- **Translator**
+	- **Recorder**
+	- **Scanner**
+	- **Flashlight**
+	- **Clock** 
+	- **Stopwatch**
+	- **Timer**
+	- **Compass**
+	- **2FA**
+	- **Password Manager** 
+	- **Sender**
+	- **Connecting Tool**
+	- **Peripheral**
+	- **AI** 
+	- **Auto Clicker**  
+	- **Searching Tool** 
+	- **MIUI ROM Downloading Tool** 
+	- **Toolbox** 
+	- **Proxy**
+	- **Measuring**
+	- **Others** 
+- **[🔧 Developer Tools](#developer-tools)**
+	- **Server** 
+	- **Componets & Demo**
+	- **Android Studio Tutorials**
+	- **Termux**
+	- **Lua**
+	- **Others**
+- **[#️⃣ Root/ADB](#%EF%B8%8F%E2%83%A3rootadb)**
+	- **Manager**  
+	- **Root Defender** 
+	- **Shizuku/Dhizuku/ADB**
+	- **Xposed Modules**
+	- **Others**
+- **[🎮 Games](#games)**
+	- **Emulator** 
+	- **Instruments** 
+	- **Quiz**
+	- **Sudoku**
+	- **Tic Tac Toe**
+	- **Counter**
+	- **Randomizer**
+	- **Puzzle**
+	- **Other Small Games**
+	- **Minecraft Tools**
+	- **Others** 
+- **[🪄 Monet Modules](#monet-modules)**
+## 🏆Recommended
+- [vvex](https://github.com/guozhigq/flutter_v2ex) **`Full` `Multi`**
+- [Sync for Reddit](https://play.google.com/store/apps/details?id=com.laurencedawson.reddit_sync) **`Full` `Multi`**
+- [Geometric Weather](https://github.com/WangDaYeeeeee/GeometricWeather) **`Full` `Multi`**
+- [Material Files](https://github.com/zhanghai/MaterialFiles) **`Full` `Multi`**
+- [Tachiyomi](https://github.com/tachiyomiorg/tachiyomi) **`Full` `Multi`**
+- [Kotatsu](https://github.com/KotatsuApp/Kotatsu) **`Full` `Multi`**
+- [Read You](https://github.com/Ashinch/ReadYou) **`Full`**
+- [Cinexplore](https://play.google.com/store/apps/details?id=com.fidloo.cinexplore) **`Full` `Multi`**
+- [Barcode Scanner](https://gitlab.com/Atharok/BarcodeScanner) **`Full` `Multi`**
+- [Blocker](https://github.com/lihenggui/blocker) **`Full` `Multi`**
+- [Pica Comic](https://github.com/wgh136/PicaComic) **`Full` `Multi`**
+- [FluffyChat](https://github.com/krille-chan/fluffychat) **`Full` `Multi`**
+- [Seal](https://github.com/JunkFood02/Seal) **`Full`**
+- [WakeUp Scheduler](https://www.coolapk.com/apk/com.suda.yzune.wakeupschedule) **`Full` `Multi`**
+- [School Planner](https://play.google.com/store/apps/details?id=daldev.android.gradehelper) **`Full` `Multi`**
+- [Sleep as Android](https://play.google.com/store/apps/details?id=com.urbandroid.sleep) **`Full` `Multi`**
+- [Surfboard](https://play.google.com/store/apps/details?id=com.getsurfboard) **`Full` `Multi`**
+- [Journey](https://play.google.com/store/apps/details?id=com.journey.app) **`MD` `Multi`**
+- [InstallerX](https://github.com/iamr0s/InstallerX) **`Full` `Multi`**
+- [Hail](https://github.com/aistra0528/Hail) **`Full` `Multi`**
+## 🆕Newly Added Apps
+**Here I will show the last 15 apps that were recently added to list.**
+- [AlistAndroid](https://github.com/jing332/AlistAndroid) **`Full` `FOSS`**
+- [KeyManager](https://github.com/Yash-Garg/KeyManager) **`Full` `FOSS`**
+- [Parabox](https://github.com/Parabox-App/parabox) **`Full` `Multi` `FOSS`**
+- [MeRead](https://github.com/gvenusleo/MeRead) **`Full` `FOSS`**
+- [PiliPala](https://github.com/guozhigq/pilipala) **`Full` `FOSS`**
+- [Gramophone](https://github.com/AkaneTan/Gramophone/) **`Full` `FOSS` `TODO`**
+- [ServerBox](https://github.com/lollipopkit/flutter_server_box) **`MD` `FOSS`**
+- [Google Earth](https://play.google.com/store/apps/details?id=com.google.earth) **`MD-`**
+- [ZipXtract](https://github.com/WirelessAlien/ZipXtract) **`Full` `FOSS`**
+- [Bitwarden Authenticator](https://play.google.com/store/apps/details?id=com.bitwarden.authenticator) **`MD`**
+- [Viola Browser](https://gitlab.com/TipzTeam/viola) **`MD-` `Monet` `Multi` `FOSS`**
+- [FlClash](https://github.com/chen08209/FlClash) **`Full` `Multi` `FOSS`**
+- [Colorblendr](https://github.com/Mahmud0808/ColorBlendr) **`Full` `FOSS`**
+- [Bura](https://github.com/davidtakac/bura) **`Full` `FOSS`**
+- [Cashew](https://github.com/jameskokoska/Cashew) **`Full` `Multi` `FOSS`**
+## 📱Applist
+**Now you could click the title to return to the applist menu!**
+### 🦖[Google Apps](#applist-menu)
+As the father of Material You, Google is changing its applications to Material Design 3. Most of Google Apps are based on Material Design 3 now, although there may be some imperfect. Below are Google Apps with Material You nowadays.
+- [Google Clock](https://play.google.com/store/apps/details?id=com.google.android.deskclock) **`Full` `Multi`**
+- [Google Camera](https://play.google.com/store/apps/details?id=com.google.android.GoogleCamera) **`Full` `Multi`**
+- [Google Recorder](https://play.google.com/store/apps/details?id=com.google.android.apps.recorder) **`Full` `Multi`**
+- [Google Calculator](https://play.google.com/store/apps/details?id=com.google.android.calculator) **`Full` `Multi`**
+- [Google Keep](https://play.google.com/store/apps/details?id=com.google.android.keep) **`Full` `Multi`**
+- [Google Home](https://play.google.com/store/apps/details?id=com.google.android.apps.chromecast.app) **`MD-` `Multi`**
+- [Google](https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox) **`MD-` `Multi`**
+- [Google Assistant](https://play.google.com/store/apps/details?id=com.google.android.apps.googleassistant) **`Monet`**
+- [Google Phone](https://play.google.com/store/apps/details?id=com.google.android.dialer) **`MD-` `Monet`**
+- [Google Contacts](https://play.google.com/store/apps/details?id=com.google.android.contacts) **`MD-` `Monet`**
+- [Google Message](https://play.google.com/store/apps/details?id=com.google.android.apps.messaging) **`MD-` `Monet` `Multi`**
+- [Google Photos](https://play.google.com/store/apps/details?id=com.google.android.apps.photos) **`MD-` `Monet` `Multi`**
+- [Google Chrome](https://play.google.com/store/apps/details?id=com.android.chrome) **`MD-` `Monet` `Multi`**
+- [Google Maps](https://play.google.com/store/apps/details?id=com.google.android.apps.maps) **`MD-`**
+- [Files by Google](https://play.google.com/store/apps/details?id=com.google.android.apps.nbu.files) **`MD-` `Monet` `Multi`**
+- [Google Podcasts](https://play.google.com/store/apps/details?id=com.google.android.apps.podcasts) **`MD-` `Monet`**
+- [Google Lens](https://play.google.com/store/apps/details?id=com.google.ar.lens) **`MD-` `Monet`**
+- [Google News](https://play.google.com/store/apps/details?id=com.google.android.apps.magazines) **`MD-` `Multi`**
+- [Google Voice](https://play.google.com/store/apps/details?id=com.google.android.apps.googlevoice) **`MD-` `Monet`**
+- [Google Chat](https://play.google.com/store/apps/details?id=com.google.android.apps.dynamite) **`MD-` `Monet`**
+- [Google Meet](https://play.google.com/store/apps/details?id=com.google.android.apps.tachyon) **`MD-` `Monet` `Multi`**
+- [Health Connect](https://play.google.com/store/apps/details?id=com.google.android.apps.healthdata) **`MD-` `Monet`**
+- [Google Calendar](https://play.google.com/store/apps/details?id=com.google.android.calendar) **`Full`**
+- [Google Fi](https://play.google.com/store/apps/details?id=com.google.android.apps.tycho) **`MD-` `Monet`**
+- [Google Family Link](https://play.google.com/store/apps/details?id=com.google.android.apps.kids.familylink) **`Full`**
+- [Google Wallet](https://play.google.com/store/apps/details?id=com.google.android.apps.walletnfcrel) **`MD-` `Monet`**
+- [GPay](https://play.google.com/store/apps/details?id=com.google.android.apps.nbu.paisa.user) **`MD-`**
+- [Google Translate](https://play.google.com/store/apps/details?id=com.google.android.apps.translate) **`MD-` `Monet`**
+- [GBoard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin) **`Full`**
+- [Google TV](https://play.google.com/store/apps/details?id=com.google.android.videos) **`MD-` `Monet` `Multi`**
+- [Google One](https://play.google.com/store/apps/details?id=com.google.android.apps.subscriptions.red) **`MD-` `Monet`**
+- [Google Tasks](https://play.google.com/store/apps/details?id=com.google.android.apps.tasks) **`Full` `Multi`**
+- [Google Docs](https://play.google.com/store/apps/details?id=com.google.android.apps.docs.editors.docs) **`MD-` `Monet`**
+- [Google Slides](https://play.google.com/store/apps/details?id=com.google.android.apps.docs.editors.slides) **`MD-` `Monet`**
+- [Google Sheets](https://play.google.com/store/apps/details?id=com.google.android.apps.docs.editors.sheets) **`MD-` `Monet`**
+- [GMail](https://play.google.com/store/apps/details?id=com.google.android.gm) **`MD-` `Monet` `Multi`**
+- [Google Drive](https://play.google.com/store/apps/details?id=com.google.android.apps.docs) **`MD-` `Monet` `Multi`**
+- [Google Pixel Buds](https://play.google.com/store/apps/details?id=com.google.android.apps.wearables.maestro.companion) **`MD-` `Monet`**
+- [Google Pixel Watch](https://play.google.com/store/apps/details?id=com.google.android.apps.wear.companion) **`MD-` `Monet`**
+- [Google Play Console](https://play.google.com/store/apps/details?id=com.google.android.apps.playconsole) **`Full`**
+- [Reading Mode](https://play.google.com/store/apps/details?id=com.google.android.accessibility.reader) **`MD-` `Monet`**
+- [Voice Access](https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.voiceaccess) **`MD-` `Monet`**
+- [Switch Access](https://play.google.com/store/apps/details?id=com.google.android.accessibility.switchaccess) **`Full`**
+- [Find My Device](https://play.google.com/store/apps/details?id=com.google.android.apps.adm) **`Full`**
+- [Compose Material Catalog](https://play.google.com/store/apps/details?id=androidx.compose.material.catalog) **`MD`**
+- [Android Device Policy](https://play.google.com/store/apps/details?id=com.google.android.apps.work.clouddpc) **`MD-` `Monet`**
+- [Personal Safety](https://play.google.com/store/apps/details?id=com.google.android.apps.safetyhub) **`MD`**
+- [Google Earth](https://play.google.com/store/apps/details?id=com.google.earth) **`MD-`**
+---
+### 👨‍💻[OEM Apps](#applist-menu)
+As I know, 
+
+- **Moto MYUI**
+- **crDroid**
+- **Nothing OS**
+- **OneUI**
+- **ASUS Zenui**
+- **Octavi OS**
+
+have applied Material You design or Dynamic Colors to their most system apps. 
+
+Some Native System's system apps may support Material Design 3, but in fact they're Google's apps instead of their own apps, so I won't consider them.
+
+Below I provide links of some ported apps. The links must be incomplete, and welcome to help me to add them!
+
+- **Moto MYUI**
+	- [Gallery](https://www.pling.com/p/1884299/) **`Full`**
+	- [Calendar](https://t.me/DroidRepo/245) **`Full`**
+	- [Dialer](https://www.pling.com/p/1884299/) **`Full`**
+	- [Messager](https://www.pling.com/p/1884299/) **`Full`**
+	- [Recorder](https://www.pling.com/p/1884299/) **`Full`**
+	- [Compass](https://www.pling.com/p/1884299/) **`Full`**
+	- [Clock](https://www.pling.com/p/1884299/) **`Full`**
+	- [Widget](https://www.pling.com/p/1884299/) **`Full`**
+	- [Calculator](https://www.pling.com/p/1884299/) **`Full`**
+	- Contacts **`Full`**
+	- Notes **`Full`**
+- **Nothing OS**  
+	- [Weather](https://www.apkmirror.com/apk/nothing-technology-limited/nothing-weather/) **`MD`**
+- **Octavi OS**
+	- [Dialer](https://www.pling.com/p/1571900) **`Monet`**
+- **ASUS Zenui**
+	- [Dialog](https://1drv.ms/u/s!Atk49Scq_BtYhHJ-sF_qVBqCHc4U?e=AhKxxI) **`MD-` `Monet`** (Inaccessible in other systems)
+	- [Contact](https://1drv.ms/u/s!Atk49Scq_BtYhHWgq1cgdMOfOXPR?e=IhKfSs) **`MD-` `Monet`** (Inaccessible in other systems)
+	- [File Explorer](https://1drv.ms/u/s!Atk49Scq_BtYhHhx754A6fZn27Zg?e=RdeWRf) **`Full`**
+	- [Weather](https://1drv.ms/u/s!Atk49Scq_BtYhHcoe0oAADVVXs3T?e=sGW6zx) **`MD-` `Monet`**
+	- [Calculator](https://1drv.ms/u/s!Atk49Scq_BtYhHTNUhvzOyusNfez?e=c7oGAF) **`Full`**
+	- [Clock](https://1drv.ms/u/s!Atk49Scq_BtYhHa1Y2x5y_QXV539?e=NfiL9e) **`Full`**
+
+And, later I will consider uploading crDroid and other Octavi's apps and list them if these apps could be used in other phones.
+
+---
+### [👥Chat & Social Network](#applist-menu)
+- **Contact**
+	- [Simple Contacts](https://github.com/SimpleMobileTools/Simple-Contacts) **`Full` `FOSS`**
+	- [Connect You](https://github.com/Bnyro/ConnectYou) **`Full` `FOSS`**
+- **Dialer**
+	- [Koler](https://github.com/Chooloo/koler) **`Full` `FOSS`**
+	- [Simple Dialer](https://github.com/SimpleMobileTools/Simple-Dialer) **`Full` `FOSS`**
+	- [Wivewa Dialer](https://codeberg.org/wivewa/wivewa-dialer-android) **`MD` `FOSS`**
+- **SMS**
+	- [Simple SMS Messenger](https://github.com/SimpleMobileTools/Simple-SMS-Messenger) **`Full` `FOSS`**
+	- [WhatsApp](https://play.google.com/store/apps/details?id=com.whatsapp) **`MD-`**
+- **Telegram Clients**
+	- [MDgram](https://github.com/MDGramYou/MDGramYou) **`Full` `Multi`**
+	- [exteraGram](https://github.com/exteraSquad/exteraGram) **`MD-` `Multi` `FOSS`**
+	- [Lilgram](https://github.com/lilchill666/LilGram) **`Full` `Multi` `FOSS`**
+	- [Nekogram](https://nekogram.app/) **`Monet` `Multi` `FOSS`**
+	- [Nagram](https://github.com/NextAlone/Nagram) **`Monet` `Multi` `FOSS`**
+	- [Octogram](https://github.com/OctoGramApp/OctoGram) **`Monet` `Multi` `FOSS`**
+	- [Cherrygram](https://github.com/arsLan4k1390/Cherrygram) **`Monet` `Multi` `FOSS`**
+	- [Nullgram](https://github.com/qwq233/Nullgram) **`Monet` `Multi` `FOSS`**
+- **Matrix Client**
+     - [FluffyChat](https://github.com/krille-chan/fluffychat) **`Full` `Multi` `FOSS`**
+- **Encrypted Chatting**
+	- [Signal](https://github.com/signalapp/Signal-Android) / [Signal You](https://github.com/nekorubu/Signal-You) **`MD` `FOSS`**
+	- [Molly](https://github.com/mollyim/mollyim-android) **`MD` `FOSS`**
+	- [E2E Encrypted Chat](https://github.com/Project-Based-Learning-IT/e2ee-chat) **`TODO` `FOSS`**
+    - [Parabox](https://github.com/Parabox-App/parabox) **`Full` `Multi` `FOSS`**
+- **Instagram Clients**
+	- [Instander](https://thedise.me/instander/repo/) **`Monet` `MOD`**
+	- [Honista](https://t.me/Honistagram) **`Monet` `MOD`**
+	- [Instasmash](https://t.me/instasmashrepo) **`Monet` `MOD`**
+- **Reddit Clients**
+	- [Sync for Reddit](https://play.google.com/store/apps/details?id=com.laurencedawson.reddit_sync) **`Full` `Multi` `👻`**
+	- [Karma for Reddit](https://play.google.com/store/apps/details?id=com.brianrobles204.karmamachine_flutter) **`Full` `MD-` `Monet`** 
+	- [Infinity for Reddit](https://github.com/Docile-Alligator/Infinity-For-Reddit) **`MD-` `Monet` `💴`**
+	- [Focus for Reddit](https://play.google.com/store/apps/details?id=allen.town.focus.reddit) **`Full` `Multi` `💴`**
+	- [Pinapple](https://github.com/galaxygoldfish/pineapple) **`TODO` `FOSS`**
+	- [FairBird for Reddit](https://play.google.com/store/apps/details?id=com.niven.reddit) **`Full`**
+	- [Joey for Reddit](https://play.google.com/store/apps/details?id=o.o.joey) **`MD-` `Monet`**
+- **Discord Clients**
+	- [OpenCord](https://github.com/MateriiApps/OpenCord) **`Full` `FOSS`**
+- **Twitter (𝕏) Clients**
+	- [harpy for Twitter](https://github.com/robertodoering/harpy) **`Monet` `FOSS`**
+	- [Albatross for Twitter](https://play.google.com/store/apps/details?id=com.nick.mowen.albatross) **`Monet` `👻`**
+	- [FocusTwitter](https://play.google.com/store/apps/details?id=allen.town.focus.twitter) **`Full` `💴`**
+	- [Quacker](https://apt.izzysoft.de/fdroid/index/apk/com.thehcj.quacker) **`MD-`**
+	- [Squawker](https://github.com/j-fbriere/squawker) **`Monet` `FOSS`**
+- **Mastodon and its Clients**
+	- [Mastodon](https://github.com/mastodon/mastodon-android) **`Full` `FOSS`**
+	- [Moshidon](https://github.com/LucasGGamerM/moshidon) **`Full` `FOSS`**
+	- [Megalodon for Mastodon](https://github.com/sk22/megalodon) **`Full` `FOSS`**
+	- [Focus for Mastodon](https://play.google.com/store/apps/details?id=allen.town.focus.mastodon) **`Full` `💴`**
+	- [Trunks](https://play.google.com/store/apps/details?id=com.decad3nce.trunks) **`MD-` `Monet`**
+	- [Dimett](https://github.com/MateriiApps/Dimett) **`TODO` `FOSS`**
+	- [Mastodon Redirect](https://github.com/zacharee/MastodonRedirect) **`Full` `FOSS`**
+- **Lemmy Clients**
+	- [Jerboa for Lemmy](https://github.com/dessalines/jerboa) **`Full` `FOSS`**
+	- [Thunder](https://github.com/hjiangsu/thunder) **`Full` `FOSS`**
+	- [Connect for Lemmy](https://play.google.com/store/apps/details?id=com.kuroneko.lemmy_connect) **`Full`**
+	- [Lemming](https://github.com/janniskilian/Lemming) **`Full` `FOSS`**
+- **Other DAO Social Applications**
+	- [Nostros](https://github.com/KoalaSat/nostros) **`MD-` `FOSS`**
+	- [Kaiteki](https://github.com/Kaiteki-Fedi/Kaiteki) **`Full` `Multi` `FOSS`**
+	- [Fedilab](https://codeberg.org/tom79/Fedilab) **`MD` `FOSS`**
+	- [Hejtter](https://github.com/mateusz-bak/hejtter) **`MD` `FOSS`**
+	- [Dimett](https://github.com/MateriiApps/Dimett) **`Full` `FOSS`**
+- **BBS**
+	- [msea](https://github.com/eternaljust/msea-compose) **`Full` `FOSS`**
+	- [vvex](https://github.com/guozhigq/flutter_v2ex) **`Full` `Multi` `FOSS`**
+	- [v2compose](https://github.com/cooaer/v2compose) **`Full` `FOSS`**
+	- [FogIsland](https://github.com/123Duo3/XDNMB) **`TODO` `FOSS`**
+	- [Stack for Stack Overflow](https://play.google.com/store/apps/details?id=me.tylerbwong.stack) **`Full`**
+	- [HACG](https://github.com/shizheng233/HACG) **`Full` `FOSS`**
+	- [xland](https://github.com/re-ovo/xland) **`FOSS` `👻`**
+	- [Taiga Mobile](https://github.com/EugeneTheDev/TaigaMobile) **`Full` `FOSS`**
+	- [Hackerfeed](https://github.com/shreydan/hackerfeed) **`MD` `FOSS`**
+	- [CoolbbsYou](https://github.com/WaitFme/CoolbbsYou) **`TODO`**
+	- [OBViewer](https://github.com/wukgdu/bdwm_viewer) **`Full`**
+- **Mail**    
+   	- [Spark Mail](https://play.google.com/store/apps/details?id=com.readdle.spark) **`Full` `💴`**    
+   	- [Informaniak KMail](https://github.com/Infomaniak/android-kMail) **`Full` `FOSS`**    
+   	- [Gotify](https://github.com/gotify/android) **`MD` `FOSS`**  
+- **Others**
+	- [Kizzy](https://github.com/dead8309/Kizzy) **`Full` `FOSS`**
+	- [LiPari](https://github.com/Stamir36/LiPari-Android) **`Full` `Multi` `FOSS`**
+	- [PixelDroid](https://github.com/H-PixelDroid/PixelDroid) **`MD` `FOSS`**
+	- [Staver](https://play.google.com/store/apps/details?id=com.anafthdev.staver) **`MD-` `Monet` `Multi`**
+	- [DankChat](https://github.com/flex3r/DankChat) **`Full` `FOSS`**
+	- [Blog2App](https://play.google.com/store/apps/details?id=com.boltuix.blogtoapp) **`MD`**
+	- [Hydrogen](https://myhydrogen.gitee.io/) **`MD-` `FOSS`**
+	- [Jami](https://git.jami.net/savoirfairelinux/jami-client-android) **`MD`**
+---
+### [🎵Media](#applist-menu)
+- **Youtube Clients**
+	- [LibreTube](https://github.com/libre-tube/LibreTube) **`Full` `FOSS`**
+	- [Revanced Extended](https://github.com/revanced/revanced-manager) **`Full` `FOSS`**
+	- [Hyperion](https://github.com/zt64/Hyperion) **`Full` `Multi` `FOSS`**
+	- [VueTube](https://github.com/VueTubeApp/VueTube) **`Full` `FOSS`**
+	- [Clipious](https://github.com/lamarios/clipious) **`Full` `FOSS`**
+	- [Vanced MicroG](https://github.com/cuynu/VancedMicroG) **`Monet` `FOSS`**
+	- [Lighttube](https://github.com/kuylar/lighttube-android) **`Full` `FOSS`**
+- **Youtube Music Clients**
+	- [ViMusic](https://github.com/vfsfitvnm/ViMusic) **`MD` `Multi` `FOSS`**
+	- [Vibe Music](https://github.com/sheikhhaziq/vibemusic) **`Full` `FOSS`**
+	- [InnerTune](https://github.com/z-huang/InnerTune) **`Full` `FOSS`**
+	- [Musify](https://github.com/gokadzev/Musify) **`Full` `FOSS`**
+	- [Harmony Music](https://github.com/anandnet/Harmony-Music) **`MD-` `Monet` `FOSS`**
+	- [SpMp](https://github.com/toasterofbread/spmp) **`Full` `FOSS`**
+	- [SimpMusic](https://github.com/maxrave-dev/SimpMusic) **`Full` `FOSS`**
+- **Spotify Clients** 
+	- [Jetispot](https://github.com/iTaysonLab/jetispot) and a [fork](https://github.com/BobbyESP/Jetispot) **`Full` `FOSS`**
+	- [Spotube](https://github.com/KRTirtho/spotube) **`MD` `FOSS`**
+- **Netease Cloud Music Clients** 
+	- [Music You](https://github.com/GuihongWang/MusicYou) **`Full` `Multi` `FOSS`**
+	- [RainMusic](https://github.com/re-ovo/RainMusic) **`FOSS` `👻`**
+- **Bilibili Clients**
+	- [Bili You](https://github.com/lucinhu/bili_you) **`Full` `FOSS`**
+	- [Bilimiao](https://github.com/10miaomiao/bilimiao2) **`Monet` `Multi` `FOSS`**
+	- [bi](https://github.com/storytellerF/bi) **`Full` `Multi` `FOSS`**
+	- [Bilibili Mod](https://t.me/misakamaterialyou/428) **`Monet` `MOD`**
+	- [BiliBiliAndYou](https://github.com/WaitFme/BiliBiliAndYou) **`TODO`**
+    - [PiliPala](https://github.com/guozhigq/pilipala) **`Full` `FOSS`**
+- **Streaming Server Clients**
+	- [SubTune](https://github.com/TaylorKunZhang/SubTune) **`MD` `FOSS`**
+	- [Ultrasonic](https://gitlab.com/ultrasonic/ultrasonic) **`Full` `FOSS`**
+	- [Symfonium](https://play.google.com/store/apps/details?id=app.symfonik.music.player) **`Full`**
+	- [Yatse](https://play.google.com/store/apps/details?id=org.leetzone.android.yatsewidgetfree) **`Full` `Multi` `💴`**
+	- [Drive Stream](https://github.com/itszechs/DriveStream) **`MD` `FOSS`**
+	- [Tempo](https://github.com/CappielloAntonio/tempo) **`MD-` `Monet` `FOSS`**
+- **Anime Services**
+	- [Sakura Anime](https://github.com/670848654/SakuraAnime) **`MD-` `FOSS`**
+	- [AGE](https://github.com/xihan123/AGE) **`MD-` `FOSS`**
+	- [Aniyomi](https://github.com/jmir1/aniyomi) **`MD-` `FOSS`**
+	- [Teapod](https://git.mosad.xyz/Seil0/teapod) **`MD-` `FOSS`**
+	- [Easybangumi](https://easybangumi.org/zh/) **`Full` `Multi` `FOSS`**
+	- [Awara](http://t.me/misakamaterialyou/199) **`Full` `Multi` `👻`**
+	- [Burning Series](https://github.com/DATL4G/Burning-Series) **`MD` `FOSS`**
+- **Online Videos Services**
+	- [NoFasel](https://github.com/N0-0NE-Dev/NoFasel) **`MD-` `Monet` `FOSS`**
+	- [DangoPlayer](https://github.com/brunochanrio/DangoPlayer) **`MD` `Multi` `FOSS`**
+	- [Findroid](https://github.com/jarnedemeulemeester/findroid) **`Full` `FOSS`**
+	- [MPlayer](https://play.google.com/store/apps/details?id=com.mplayer.streamcast) **`MD` `FOSS`**
+	- [CloudStream](https://github.com/recloudstream/cloudstream) **`MD-` `Monet` `Multi` `FOSS`**
+	- [FongMi TV](https://github.com/FongMi/TV) **`MD` `FOSS`**
+	- [Onstream](https://onstream.to/) **`MD-`**
+	- [521 Movies](https://pan.quark.cn/s/acbd92736761#/list/share) **`MD-` `⚠️`** ([Evidence](https://t.me/misakamaterialyou/461))
+- **Offline Videos Services**
+	- [VLC Mod](https://t.me/waifupx_official/233) **`Full` `Multi` `MOD`** 
+	- [VideoYouX](https://github.com/Clearpole/VideoYouX) **`Full` `Multi` `FOSS`**
+	- [NextPlayer](https://github.com/anilbeesetti/nextplayer) **`Full` `FOSS`**
+	- [myplayer](https://www.coolapk.com/apk/com.ltj.myplayer) **`MD-`**
+- **Online Music Services**
+	- [Kayin](http://music.ijanz.cn/) **`MD` `💴`**
+- **Offline Music Services**
+	- [Retro Music](https://github.com/RetroMusicPlayer/RetroMusicPlayer) **`💴`** / [Metro](https://github.com/MuntashirAkon/Metro) / [ApexMusic](https://github.com/TheTerminatorOfProgramming/ApexMusic) | **`Full` `Multi` `FOSS`**
+	- [Oto Music](https://play.google.com/store/apps/details?id=com.piyush.music) **`Full` `💴`**
+	- [Musicmax](https://github.com/MaximillianLeonov/Musicmax) **`Full` `FOSS`**
+	- [Zen Music](https://github.com/pakka-papad/Zen) **`Full` `FOSS`**
+	- [Mucke](https://github.com/moritz-weber/mucke) **`MD` `FOSS`**
+	- [Auxio](https://github.com/OxygenCobalt/Auxio) **`Full` `Multi` `FOSS`**
+	- [Symphony](https://www.f-droid.org/packages/io.github.zyrouge.symphony/) **`Full` `FOSS`**
+	- [Poweramp](https://play.google.com/store/apps/details?id=com.maxmpz.audioplayer) **`MD` `💴`**
+	- [Simple Music Player](https://github.com/SimpleMobileTools/Simple-Music-Player) **`Full` `FOSS`**
+	- [Pixel](https://play.google.com/store/apps/details?id=it.ncaferra.pixelplayerfree) **`Full`**
+	- [Pure Music](https://github.com/pure-music/PureMusic) **`Full` `Multi` `💴`**
+	- [Vanilla Music](https://play.google.com/store/apps/details?id=com.kyant.vanilla) **`MD-` `Monet`**
+	- [Simple MP](https://github.com/lighttigerXIV/SimpleMP-Compose) **`Full` `Multi` `FOSS`**
+	- [Mellow Music](https://github.com/SuhasDissa/MellowMusic) **`Full` `FOSS`**
+	- [Symphonica](https://github.com/AkaneTan/Symphonica) **`Full` `FOSS`**
+	- [Howl](https://github.com/Iamlooker/Howl) **`MD` `FOSS` `👻`**
+	- [MusicomposeV2](https://github.com/kafri8889/Musicompose-V2) **`Full` `FOSS`**
+	- [Pixel](https://play.google.com/store/apps/details?id=it.ncaferra.pixelplayerfree) **`MD-` `Monet` `💴`**
+      - [Gramophone](https://github.com/AkaneTan/Gramophone/) **`Full` `FOSS` `TODO`**
+- **Podcasts**
+	- [Moon FM](https://play.google.com/store/apps/details?id=fm.moon.app) **`Monet` `Multi` `💴`**
+	- [FocusPodcast](https://play.google.com/store/apps/details?id=allen.town.focus.podcast) **`Full` `Multi` `💴`**
+	- [AntennaPod](https://github.com/AntennaPod/AntennaPod) **`MD-` `Monet` `FOSS`**
+	- [URL Radio](https://github.com/jamal2362/URL-Radio) **`Full` `FOSS`**
+	- [Escapepod](https://codeberg.org/y20k/escapepod) **`Full` `FOSS`**
+	- [Turtlecast](https://play.google.com/store/apps/details?id=com.bluckapps.turtlecast) **`MD-` `Monet`**
+	- [Radiotime](https://play.google.com/store/apps/details?id=com.radiotime.app) **`Full`**
+	- [Podcast Republic](https://play.google.com/store/apps/details?id=com.itunestoppodcastplayer.app) **`MD-` `Monet` `Multi` `💴`**
+	- [Castmix](https://play.google.com/store/apps/details?id=com.ncaferra.podcast) **`MD-` `Monet` `💴`**
+- **Lives**
+	- [Hotlive](https://github.com/Jackiu1997/hot_live) **`Full` `FOSS`**
+	- [Purelive](https://github.com/Jackiu1997/pure_live/) **`Full` `Multi` `FOSS`**
+	- [Simple Live](https://github.com/xiaoyaocz/dart_simple_live) **`Full` `FOSS`**
+	- [ASeam](www.aseam.site) **`Full`**
+- **Now Playing**
+   	- [Ambient Music Mod](https://github.com/KieronQuinn/AmbientMusicMod) **`Full` `FOSS`**
+- **Media Tools**
+	- [AudioLab](https://play.google.com/store/apps/details?id=com.hitrolab.audioeditor) **`MD-` `Monet` `Multi` `💴`**
+	- [Video Convertor](https://play.google.com/store/apps/details?id=jaineel.videoconvertor) **`MD-` `Monet` `Multi` `💴`**
+---
+### [✍Writing & Drawing](#applist-menu)
+- **Notes**
+	- [Orgzly](https://github.com/orgzly/orgzly-android) **`MD-` `Monet` `FOSS`**
+	- [Another Notes](https://github.com/maltaisn/another-notes-app) **`MD-` `Monet` `FOSS`**
+	- [Bundled Notes](https://play.google.com/store/apps/details?id=com.xaviertobin.noted) **`Full`**
+	- [Ruslin](https://github.com/ruslin-note/ruslin-android) **`Full` `FOSS`**
+	- [Simple Notes](https://github.com/SimpleMobileTools/Simple-Notes) **`Full` `FOSS`**
+	- [Firenote](https://github.com/T8RIN/Firenote) **`Full` `FOSS`**
+	- [MoeMemos](https://github.com/mudkipme/MoeMemosAndroid) **`Full` `FOSS`**
+	- [Ara Note](https://github.com/hashemi-hossein/ara-note) **`Full` `FOSS`**
+	- [Ruppu](https://play.google.com/store/apps/details?id=it.ruppu) **`Full` `Multi`**
+	- [Nonsense Notes](https://www.coolapk.com/apk/com.hua.ssnote_coolapk) **`MD`**
+	- [Notes](https://play.google.com/store/apps/details?id=com.redmerah.notes) **`Full`**
+	- [Start Now](https://www.coolapk.com/apk/com.start.now) **`MD-` `💴`**
+	- [Justnotes](https://github.com/jjewuz/JustNotes) **`Full` `FOSS`**
+	- [BeauTyXT](https://github.com/soupslurpr/BeauTyXT) **`Full` `FOSS`**
+	- [Simple Notes (Yangdai)](https://play.google.com/store/apps/details?id=com.yangdai.notesapp) **`Full` `FOSS`**
+	- [Kalam](https://play.google.com/store/apps/details?id=com.shifastudios.kalam) **`MD`**
+- **Markdown**
+	- [flowte](https://www.coolapk1s.com/feed/42984209) **`Full`**
+	- [Markdown Editor](https://play.google.com/store/apps/details?id=com.adeeteya.markdown_editor) **`MD`**
+	- [Fleeting Notes](https://play.google.com/store/apps/details?id=com.fleetingnotes) **`Full` `Multi`**
+- **Handwritten**
+	- [Saber](https://github.com/adil192/saber) **`Full` `Multi` `FOSS`**
+	- [Notewise](https://play.google.com/store/apps/details?id=com.yygg.note.app) **`MD` `💴`**
+- **Journal**
+	- [Graphite](https://play.google.com/store/apps/details?id=com.syncodec.graphite) **`MD`**
+	- [Durian Journal](https://www.coolapk.com/apk/com.weimu.duriandiary) **`MD` `💴`**
+	- [Spooky](https://github.com/juniorise/spooky-mb) **`Full` `FOSS`**
+	- [jtxBoard](https://jtx.techbee.at/) **`Full` `FOSS`**
+	- [Journey](https://play.google.com/store/apps/details?id=com.journey.app) **`MD` `Multi` `💴`**
+	- [Tianyue Journal](https://www.tianyueapp.com/) **`MD` `Multi` `💴`**
+	- [Diarium](https://play.google.com/store/apps/details?id=partl.Diarium) **`Full`**
+- **Drawboard**
+	- [Simple Draw](https://github.com/SimpleMobileTools/Simple-Draw) **`Full` `FOSS`**
+	- [Linwood Butterfly](https://github.com/LinwoodCloud/butterfly) **`Full` `Multi` `FOSS`**
+	- [PixaPencil](https://github.com/therealbluepandabear/PixaPencil) **`MD` `FOSS`**
+	- [SoftBoard](https://github.com/SuhasDissa/SoftBoard) **`TODO` `FOSS`**
+- **Docs**
+	- [Paperless Mobile](https://github.com/astubenbord/paperless-mobile) **`MD` `FOSS`**
+	- [PDFViewer](https://github.com/GrapheneOS/PdfViewer/) **`MD-` `Monet` `FOSS`**
+- **To-do**
+	- [Scheduler](https://github.com/dgudim/Scheduler) **`Full` `FOSS`**
+	- [Wishapp](https://play.google.com/store/apps/details?id=ru.vitaliy.belyaev.wishapp) **`Full`**
+	- [Birday](https://github.com/m-i-n-a-r/birday) **`Full` `FOSS`**
+	- [RemindMe](https://github.com/kafri8889/Remind-Me) **`TODO` `FOSS`**
+	- [Food Expiration Dates](https://github.com/lorenzovngl/FoodExpirationDates) **`Full` `FOSS`**
+	- [Clever Tasks](https://play.google.com/store/apps/details?id=com.protivity.clever_tasks) **`Full`**
+	- [Todoist](https://play.google.com/store/apps/details?id=com.todoist) **`Monet` `💴`**
+	- [Tasky](https://github.com/thatsmanmeet/Tasky) **`Full` `FOSS`**
+	- [Doable](https://codeberg.org/florian-obernberger/flutter-doable) **`Full` `Multi` `FOSS`**
+	- [Noterly](https://play.google.com/store/apps/details?id=uk.co.tdsstudios.noterly) **`Full`**
+	- [TimeTable](https://play.google.com/store/apps/details?id=app.smart.timetable) **`Full`**
+	- [Engross](https://play.google.com/store/apps/details?id=com.engross) **`MD-`**
+	- [Kubus Tasks](https://play.google.com/store/apps/details?id=com.ms.tasks) **`MD-`**
+	- [TimePlanner](https://github.com/v1tzor/TimePlanner) **`Full`**
+	- [Taskito](https://play.google.com/store/apps/details?id=com.fenchtose.reflog) **`Full` `Multi` `💴`**
+	- [Tasks](https://play.google.com/store/apps/details?id=com.redmerah.tasks) **`MD`**
+	- [Mint Task](https://github.com/boredcodebyk/minttask) **`Full` `FOSS`**
+	- [Fokus](https://github.com/icabetong/fokus-android) **`Full` `FOSS`**
+	- [Todoify](https://github.com/MGAndroidProjects/Todoify-Releases) **`Full` `FOSS`**
+	- [Lifeup](https://play.google.com/store/apps/details?id=net.sarasarasa.lifeup.free) **`MD-` `💴`**
+- **Mind Maps**
+	- [XMind](https://play.google.com/store/apps/details?id=net.xmind.doughnut) **`MD-` `💴`**
+- **Lyrics Editor**
+	- [Lyricistant](https://github.com/wardellbagby/lyricistant) **`MD-` `Monet` `Multi` `FOSS`**
+	- [Sinhala Lyrics](https://github.com/SuhasDissa/Sinhala-Lyrics-App)  **`Full` `FOSS`**
+	- [SongSync](https://github.com/Lambada10/SongSync) **`Full` `FOSS`**
+- **Others**
+	- [Raca](https://github.com/SkyD666/Raca-Android) **`Full` `Multi` `FOSS`**
+	- [Counters](https://play.google.com/store/apps/details?id=rahmouni.neil.counters) **`Full` `Multi`**
+	- [Typing Hero](https://play.google.com/store/apps/details?id=sen.typinghero) **`Full`**
+	- [Project & Task Management](https://play.google.com/store/apps/details?id=com.eunidev.projectmanagement) **`Full`**
+	- [Drafting](https://play.google.com/store/apps/details?id=sen.drafting) **`MD-` `Monet` `💴`**
+	- [ilDoppiaggio](https://play.google.com/store/apps/details?id=app.wakirox.il_doppiaggio) **`MD-` `Monet`**
+	- [Project Management](https://play.google.com/store/apps/details?id=com.anafthdev.projectmanagement) **`Full`**
+	- [Putin Box](https://www.coolapk.com/apk/cards.putin.box) **`MD-`**
+	- [Hammer](https://github.com/Wavesonics/hammer-editor) **`MD` `FOSS`**
+	- [Large Plate](https://zhixianziyuan.lanzoul.com/izlhI0yr0zqd) **`Full`**
+---
+### [🖼️Pictures](#applist-menu)
+- **Camera**
+	- [Simple Camera](https://github.com/SimpleMobileTools/Simple-Camera) **`Full` `FOSS`**
+	- [Selfie Time Lapse](https://play.google.com/store/apps/details?id=com.isidroid.sfa) **`MD`**
+	- [Libre Camera](https://github.com/iakmds/librecamera) **`MD` `FOSS`**
+- **Gallery**
+	- [Gallery for Android](https://github.com/IacobIonut01/Gallery) **`Full` `Multi` `FOSS`**
+	- [PhotoPrism Gallery](https://github.com/Radiokot/photoprism-android-client) **`MD` `FOSS`**
+	- [QuickPic](https://t.me/quickpicmd2021) **`MD-` `Monet` `MOD`**
+	- [Aves](https://github.com/deckerst/aves) **`Monet` `FOSS`**
+	- [MiniGallery](https://github.com/kabirnayeem99/miniGallery) **`Full` `FOSS`**
+	- [Simple Gallery](https://github.com/SimpleMobileTools/Simple-Gallery) **`Full` `FOSS`**
+	- [OneShot](https://github.com/ptrLx/OneShot) **`Full` `FOSS`**
+	- [SavePic](https://play.google.com/store/apps/details?id=com.michaelflisar.privacyimageviewer) **`MD` `💴`**
+- **Illustrations**
+	- [PixEz](https://github.com/Notsfsssf/pixez-flutter) **`Full` `Multi` `FOSS`**
+	- [PixivYou](https://t.me/anubis_recommended/127) **`Full`** 
+	- [SauceNao](https://github.com/LuK1337/SauceNAO) **`Full` `FOSS`**
+	- [Boorusphere](https://github.com/nullxception/boorusphere) **`Full` `FOSS`**
+- **Editor**
+	- [Photo Editor](https://t.me/anubis_recommended/139) **`Monet` `MOD`**
+	- [ExifEraser](https://github.com/Tommy-Geenexus/exif-eraser) **`Full` `FOSS`**
+	- [Image Toolbox](https://github.com/T8RIN/ImageToolbox) **`Full` `Multi` `FOSS`**
+	- [Image Compressor](https://play.google.com/store/apps/details?id=aculix.bulk.image.compressor) **`Full` `💴`**
+	- [Photo Deleter](https://play.google.com/store/apps/details?id=com.olcay.photodeleter) **`MD-` `Multi`**
+	- [EasyWatermark](https://github.com/rosuH/EasyWatermark) **`Full` `FOSS`**
+	- [EasySticker](https://play.google.com/store/apps/details?id=com.flowbro.easysticker) **`Full`**
+	- [Graphie](https://play.google.com/store/apps/details?id=com.pavelrekun.graphie) **`Full`**
+	- [Momentum Editor](https://play.google.com/store/apps/details?id=com.lware.momentum) **`MD`**
+	- [SuperImage](https://github.com/Lucchetto/SuperImage) **`MD` `FOSS`**
+	- [HiShoot2i](https://t.me/hishoot2imaterial) **`Full`**
+	- [Emblematix](https://github.com/lz233/Emblematix) **`Full` `FOSS`**
+	- [Unvcode](https://github.com/lz233/unvcode_android) **`MD` `FOSS`**
+	- [Exif Eraser](https://play.google.com/store/apps/details?id=com.none.tom.exiferaser) **`Full`**
+---
+### [🌐Browser](#applist-menu)
+- [FOSS Browser](https://github.com/scoute-dich/browser) **`Full` `Multi` `FOSS`**
+- [Stage Browser](https://github.com/thalloerupt/stage2) **`Full` `Multi` `FOSS`**
+- [Lemur Browser](https://play.google.com/store/apps/details?id=com.lemurbrowser.exts) (Monet in settings only) **`Full` `Multi`**
+- [Kiwi Browser](https://github.com/kiwibrowser/src) **`Full` `Multi` `FOSS`**
+- [Thor](https://gitlab.com/remmer.wilts/thor) **`MD-` `Multi` `FOSS`**
+- [Bromite](https://github.com/bromite/bromite) **`Full` `Multi` `FOSS`**
+- [Bromite-BuildTools](https://github.com/uazo/bromite-buildtools) **`Full` `Multi` `FOSS`**
+- [Styx](https://github.com/jamal2362/Styx) **`Full` `Multi` `FOSS`**
+- [Privacy Browser](https://play.google.com/store/apps/details?id=com.stoutner.privacybrowser.standard) **`Monet`**
+- [Vivaldi](https://play.google.com/store/apps/details?id=com.vivaldi.browser)  **`Monet`**
+- [Hermit](https://play.google.com/store/apps/details?id=com.chimbori.hermitcrab) **`Full` `Multi`**
+- [Opera Beta](https://play.google.com/store/apps/details?id=com.opera.browser.beta) **`MD` `Multi` `💴`**
+- [Cromite](https://github.com/uazo/cromite) **`MD-` `Monet` `Multi`**
+- [Viola Browser](https://gitlab.com/TipzTeam/viola) **`MD-` `Monet` `Multi` `FOSS`**
+---
+### [📖Readers](#applist-menu)
+- **Novels**
+	- [Ranobe](https://github.com/ranobe-org/ranobe) **`Full` `FOSS`**
+	- [IReader](https://github.com/IReaderorg/IReader) **`MD` `FOSS`**
+	- [LNReader](https://github.com/LNReader/lnreader) **`MD-` `FOSS`**
+	- [TaiwanEbookSearch](https://github.com/YuanLiou/TaiwanEbookSearch) **`Full` `Multi` `FOSS`**
+	- [Myne](https://github.com/Pool-Of-Tears/Myne) **`Full` `FOSS`**
+	- [Readmini](https://play.google.com/store/apps/details?id=com.reamicro.academy) **`Full`**
+	- [Shosetsu](https://gitlab.com/shosetsuorg/shosetsu) **`Full` `Multi` `FOSS`**
+	- [NovelDokusha](https://github.com/nanihadesuka/NovelDokusha) **`MD` `FOSS`**
+	- [Moon+ Reader](https://play.google.com/store/apps/details?id=com.flyersoft.moonreader) **`MD-` `Multi` `💴`**
+	- [wenku8x](https://github.com/zsakvo/wenku8x) **`TODO` `FOSS`**
+	- [wenku8reader](https://github.com/15dd/wenku8reader) **`Full` `FOSS`**
+- **RSS/News**
+	- [Read You](https://github.com/Ashinch/ReadYou) **`Full` `FOSS`**
+	- [News](https://github.com/bubelov/news) **`MD-` `Monet` `FOSS`**
+	- [Feeder](https://gitlab.com/spacecowboy/Feeder) **`Full` `FOSS`**
+	- [Pluma RSS Reader](https://play.google.com/store/apps/details?id=qijaz221.android.rss.reader) **`MD` `Multi`**
+	- [Plenary](https://play.google.com/store/apps/details?id=com.spians.plenary) **`Monet` `Multi`**
+	- [Harmonic](https://play.google.com/store/apps/details?id=com.simon.harmonichackernews) **`MD-`**
+	- [Every Daily](https://pann.lanhuang.top/down.php/a3bc25e7e539af77463acea4411c26a1.apk) **`Full`**
+	- [MeRead](https://github.com/gvenusleo/meread) **`Full` `FOSS`**
+	- [Reader](https://github.com/msasikanth/reader) **`MD-` `FOSS`**
+	- [Tension](https://github.com/re-ovo/Tension) **`FOSS` `👻`**
+	- [Global News](https://github.com/v1tzor/GlobalNewsApp) **`MD` `FOSS`**
+   	- [Neo Feed](https://github.com/NeoApplications/Neo-Feed) **`Full` `FOSS`**
+   	- [Dirol Reader](https://github.com/therxmv/Dirol-Reader) **`MD` `FOSS`**
+   	- [MeRead](https://github.com/gvenusleo/MeRead) **`Full` `FOSS`**
+- **Comics**
+	- [Tachiyomi](https://github.com/tachiyomiorg/tachiyomi) / [TachiyomiJ2K](https://github.com/Jays2Kings/tachiyomiJ2K) / [TachiyomiSY](https://github.com/Hero-Over/TachiyomiSY) / [Syncyomi](https://github.com/SyncYomi/SyncYomi) **`Full` `Multi` `FOSS`**
+	- [Kotatsu](https://github.com/KotatsuApp/Kotatsu) **`Full` `Multi` `FOSS`**
+	- [Neko](https://github.com/CarlosEsco/Neko) **`Full` `Multi` `FOSS`**
+	- [Pica Comic](https://github.com/wgh136/PicaComic) **`Full` `Multi` `FOSS`**
+	- [BIKA](https://github.com/shizq123/BIKA) **`Full` `FOSS`**
+	- [PicacgMaterial3](https://github.com/shizheng233/PicacgMaterial3) **`Full` `FOSS` `👻`**
+	- [EhViewer](https://github.com/Ehviewer-Overhauled/Ehviewer) **`Full` `FOSS`**
+	- [Hentoid](https://github.com/h6rd/Hentoid-Material-You) **`MD-` `Monet` `FOSS`**
+	- [CopyManga](https://github.com/shizheng233/CopyMangaJava) **`Full` `FOSS`**
+	- [CopyMangaX](https://github.com/CrowForKotlin/CopyMangaX) **`MD` `FOSS`**
+	- [NoyAcg](https://noy.asia/) **`MD-`**
+	- [Kuro Reader](https://play.google.com/store/apps/details?id=br.com.kurotoshiro.leitor_manga) **`Full` `Multi` `💴`**
+	- [JHentai](https://github.com/jiangtian616/JHenTai) **`MD` `Multi` `FOSS`**
+- **Audio Books**
+	- [Kafka](https://play.google.com/store/apps/details?id=com.kafka.user) **`Full` `Multi` `💴`**
+	- [Voice](https://github.com/PaulWoitaschek/Voice) **`Full` `Multi` `FOSS`**
+- **Encyclopedia**
+	- [Wikipedia](https://play.google.com/store/apps/details?id=org.wikipedia) **`MD` `FOSS`**
+---
+### [🌦️Daily Life](#applist-menu)
+- **Bookkeeping**
+	- [Xiaoxing Bookkeeping](https://www.coolapk.com/apk/com.cxincx.xxjz) **`MD` `💴`**
+	- [Paisa](https://play.google.com/store/apps/details?id=dev.hemanths.paisa) **`Full` `Multi` `-FOSS`**
+	- [Buckwheat](https://github.com/danilkinkin/buckwheat) **`Full` `Multi` `FOSS`**
+	- [GreenStash](https://github.com/Pool-Of-Tears/GreenStash) **`Full` `FOSS`**
+	- [Fuelio](https://play.google.com/store/apps/details?id=com.kajda.fuelio) **`MD-` `Monet`**
+	- [Tilla](https://play.google.com/store/apps/details?id=com.pavelrekun.tilla) **`Full`**
+	- [Taler Wallet](https://play.google.com/store/apps/details?id=net.taler.wallet) **`MD-` `Monet`**
+	- [Prepaid Balance](https://github.com/mueller-ma/PrepaidBalance) **`Full` `FOSS`**
+	- [Waterfly III](https://apt.izzysoft.de/fdroid/index/apk/com.dreautall.waterflyiii) **`MD` `FOSS`**
+	- [Dujer](https://play.google.com/store/apps/details?id=com.anafthdev.dujer) **`MD`**
+	- [WalletCount](https://github.com/GittyMac/WalletCount) **`Full` `FOSS`**
+	- [Simple Bookkeeping](https://play.google.com/store/apps/details?id=com.xinran.iviki) **`Full`**
+	- [SanaPlus](https://github.com/CakesTwix/SanaPlus) **`TODO` `FOSS`**
+	- [SubTotal](https://play.google.com/store/apps/details?id=partl.grandtotal) **`Full`**
+	- [Tasse Forfettario](https://play.google.com/store/apps/details?id=com.wakirox.adecotax) **`Full`**
+	- [Light Bookkeeping](https://www.coolapk.com/apk/kylec.me.lightbookkeeping) **`MD-`**
+	- [Keep Tally](https://github.com/123Duo3/KeepTally) **`Full` `FOSS`**
+	- [Celenganku](https://play.google.com/store/apps/details?id=id.celenganku.app) **`Full`**
+	- [Allowance](https://github.com/jameskokoska/Allowance) **`Full` `FOSS`**
+	- [Budget Management](https://github.com/kabirnayeem99/budget_management_syarah) **`TODO` `FOSS`**
+	- [Vase](https://play.google.com/store/apps/details?id=com.github.nullhandler.vase) **`MD-` `Monet`**
+   - [Cashew](https://github.com/jameskokoska/Cashew) **`Full` `Multi` `FOSS`**
+- **Virtual Currency**
+	- [PapriCoin](https://github.com/T8RIN/PapriCoin) **`Full` `FOSS`**
+	- [CoinTrend](https://github.com/CoinTrend/CoinTrend) **`MD` `FOSS`**
+	- [AgoraDesk / LocalMonero](https://github.com/AgoraDesk-LocalMonero/agoradesk-app-foss) **`MD` `FOSS`**
+	- [Trust](https://play.google.com/store/apps/details?id=com.wallet.crypto.trustapp) **`MD`**
+	- [ACrypto](https://play.google.com/store/apps/details?id=dev.dworks.apps.acrypto) **`MD-` `Monet`**
+- **Card Case**
+	- [Catima](https://github.com/CatimaLoyalty/Android) **`MD-` `Monet` `FOSS`**
+	- [zCard](https://github.com/ziadOUA/zCard) **`MD-` `Monet` `FOSS`**
+- **Calendar**
+	- [Mapleaf Calendar](https://www.coolapk.com/apk/me.mapleaf.calendar) **`Full`**
+	- [Simple Calendar](https://github.com/SimpleMobileTools/Simple-Calendar) **`Full` `FOSS`**
+	- [Persian Calendar](https://github.com/persian-calendar/persian-calendar) **`Full` `Multi` `FOSS`**
+	- [Prayer Times and Qibia](https://play.google.com/store/apps/details?id=com.reworewo.prayertimes) **`Full`**
+	- [Zoho Calendar](https://play.google.com/store/apps/details?id=com.zoho.android.calendar) **`MD-` `Monet`**
+- **Weather**
+	- [Geometric Weather](https://github.com/WangDaYeeeeee/GeometricWeather) / [Breezy Weather](https://github.com/breezy-weather/breezy-weather) **`Full` `Multi` `FOSS`**
+	- [Maweihao Weather](https://www.coolapk.com/apk/top.maweihao.weather) **`Full`**
+	- [WeatherWise](https://github.com/MGAndroidProjects/WeatherWise-Releases/) **`Full` `FOSS`**
+	- [Weather Today](https://play.google.com/store/apps/details?id=com.kokoschka.michael.weather) **`MD`** **`Multi`**
+	- [Prognoza](https://github.com/davidtakac/prognoza) **`Full` `FOSS`**
+	- [Air](https://play.google.com/store/apps/details?id=com.urbandroid.air) **`Full`**
+	- [YoWindow Weather](https://play.google.com/store/apps/details?id=yo.app.free) **`Monet`**
+	- [Rain](https://github.com/DarkMooNight/Rain) **`MD` `FOSS`**
+	- [Textual Weather](https://play.google.com/store/apps/details?id=app.wakirox.rainy) **`Full`**
+	- [Nothing Weather](https://t.me/waifupx_official/205) **`Full` `MOD`**
+	- [JustWeather](https://github.com/jjewuz/JustWeather) **`Full` `Multi` `FOSS`**
+	- [wX](https://gitlab.com/joshua.tee/wx) **`MD-` `FOSS`**
+	- [Weather You](https://play.google.com/store/apps/details?id=com.rodrigmatrix.weatheryou) **`Full` `Multi` `👻`**
+	- [Cloud Bits](https://github.com/Saronik5883/Cloud-Bits) **`TODO` `FOSS`**
+	- [QWeather](https://github.com/Henry-Hiles/QWeather) **`Full` `FOSS`**
+    - [Bura](https://github.com/davidtakac/bura) **`Full` `FOSS`**
+- **Maps & Navigation**
+	- [BTC Map](https://github.com/teambtcmap/btcmap-android) **`MD-` `FOSS`**
+	- [Tridenta](https://github.com/Stypox/tridenta) **`Full` `FOSS`**
+	- [Trail Sense](https://github.com/kylecorry31/Trail-Sense) **`MD-` `FOSS` `FOSS`**
+	- [Bimba](https://git.apiote.xyz/Bimba.git) **`MD` `FOSS`**
+	- [EVMap](https://github.com/ev-map/EVMap) **`MD` `FOSS`**
+	- [Geomag](https://github.com/ya0211/Geomag) **`Full` `FOSS`**
+	- [Insigno](https://github.com/MindsHub/insigno_frontend) **`MD-` `Monet` `FOSS`**
+	- [Alpi Maps](https://github.com/Akylas/alpimaps) **`MD` `FOSS`**
+	- [OpenStop](https://github.com/OPENER-next/OpenStop) **`MD-` `FOSS`**
+	- [locus](https://github.com/Myzel394/locus) **`Full` `FOSS`**
+- **Shopping**
+	- [Grocy](https://github.com/patzly/grocy-android) **`Full` `Multi` `FOSS`**
+	- [Shopin](https://github.com/erdemklync/Shopin) **`MD` `FOSS`**
+	- [Kitchen Owl](https://github.com/TomBursch/kitchenowl) **`MD-` `FOSS`**
+	- [KasPOS](https://play.google.com/store/apps/details?id=com.kaspos.app) **`MD-` `Monet`**
+	- [eBay](https://play.google.com/store/apps/details?id=com.ebay.mobile) **`MD-`**
+- **Food**
+	- [CTU Menza](https://github.com/Lastaapps/menza) **`Full` `Multi` `FOSS`**   
+	- [CookHelper](https://github.com/T8RIN/CookHelper) **`Full` `FOSS`**
+	- [Mealient](https://github.com/kirmanak/Mealient) **`Full` `FOSS`**
+   	- [Food-E](https://github.com/SuhasDissa/Food-E-App) **`Full` `FOSS`**
+- **Quote**
+  	- [Onesentence](https://www.coolapk.com/apk/kenmizz.onesentence) **`Full`**
+	- [Qwotable](https://github.com/Lijukay/Qwotable) **`Full` `Multi` `FOSS`**
+	- [Soliloquize](https://www.coolapk.com/apk/com.chiibeii.ZiYanZiYu) **`Full`**
+- **Health & Habits**
+   	- [Sleep as Android](https://play.google.com/store/apps/details?id=com.urbandroid.sleep) **`Full` `Multi` `💴`**
+   	- [Disconnect](https://gitlab.com/narektor/disconnect) **`Full` `FOSS`**
+   	- [Digital Detox](https://play.google.com/store/apps/details?id=com.urbandroid.ddc) **`MD`**
+   	- [Koduko](https://github.com/Mazahir26/koduko) **`MD` `FOSS`**
+   	- [Respawn](https://play.google.com/store/apps/details?id=com.nek12.respawn) **`MD`**
+   	- [Soberity](https://github.com/KiARC/Sobriety) **`Full` `FOSS`**
+   	- [Lullaby Pack](https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.lullaby) **`Full`**
+   	- [Kine](https://play.google.com/store/apps/details?id=com.urbandroid.kinestop) **`MD-`**
+   	- [Noice](https://github.com/trynoice/android-app) **`Full` `FOSS`**
+   	- [Mindroid](https://play.google.com/store/apps/details?id=com.urbandroid.mind) **`MD`**
+   	- [Habo](https://github.com/xpavle00/Habo) **`MD` `FOSS`**
+   	- [Habit Builder](https://github.com/ofalvai/HabitBuilder) **`Full` `FOSS`**
+   	- [Table Habit](https://github.com/FriesI23/mhabit) **`Full` `FOSS`**
+   	- [Tinnitus Massage](https://play.google.com/store/apps/details?id=nl.appyhapps.tinnitusmassage) **`MD` `💴`**
+   	- [Habits](https://github.com/willbsp/habits) **`Full` `FOSS`**
+- **Study**
+   	- [Graded](https://github.com/NightDreamGames/Graded) **`Full` `FOSS`**
+   	- [School Planner](https://play.google.com/store/apps/details?id=daldev.android.gradehelper) **`Full` `Multi`**
+   	- [Danxi](https://github.com/DanXi-Dev/DanXi/tree/foss-build) **`MD` `Multi` `FOSS`**
+   	- [WakeUp Scheduler](https://www.coolapk.com/apk/com.suda.yzune.wakeupschedule) **`Full` `Multi` `💴`**
+   	- [School](https://play.google.com/store/apps/details?id=com.dan.school) **`MD` `💴`**
+   	- [Atomic](https://github.com/JLindemann42/Atomic-Periodic-Table.Android) **`Full` `FOSS`**
+   	- [reSentral](https://github.com/JumpyJacko/resentral_flutter) **`MD` `FOSS`**
+   	- [Wulkanowy](https://github.com/wulkanowy/wulkanowy) **`MD-` `Monet` `FOSS`**
+   	- [Rozvrh](https://github.com/marek-guran/Rozvrh-App-Public) **`TODO` `FOSS`**
+   	- [VIQRC Hub](https://play.google.com/store/apps/details?id=com.dwabtech.vexhub.viq) **`MD-`**
+- **Language Learning**
+   	- [Owl](https://github.com/yamin8000/Owl2) **`Full` `FOSS`**
+   	- [Kanji Dojo](https://github.com/syt0r/Kanji-Dojo) **`MD` `Multi` `FOSS`**
+   	- [Fun with Kanji](https://gitlab.com/KrilleFear/funny-kanji) **`Full` `FOSS`**
+   	- [Quaetor](https://play.google.com/store/apps/details?id=com.cyb3rko.quaetor) **`MD`**
+   	- [Der Die Das](https://play.google.com/store/apps/details?id=com.lubosmikusiak.articuli.derdiedas) **`MD-`**
+   	- [99 Names Of Allah](https://play.google.com/store/apps/details?id=com.appsforall.ninetyninenamesofallah) **`MD`**
+   	- [English with Lidia Plus](https://github.com/D4rK7355608/com.d4rk.englishwithlidia.plus) **`Full`**
+   	- [Dymka](https://github.com/nexy791/dymka) **`MD` `FOSS`**
+   	- [Toadua](https://github.com/toaq/toadua-android) **`Full` `FOSS`**
+- **Tracking Services**
+	- [MyACG](https://1drv.ms/u/s!Atk49Scq_BtYhGnlrCISLKe5fG3A?e=BIvlj6) **`MD`**
+	- [Cinexplore](https://play.google.com/store/apps/details?id=com.fidloo.cinexplore) **`Full` `Multi` `💴`**
+	- [SeriesGuide](https://github.com/UweTrottmann/SeriesGuide) **`Full` `FOSS`**
+	- [Pano Scrobbler for LastFM](https://github.com/kawaiiDango/pScrobbler) **`Full` `Multi` `FOSS`**
+	- [Showly](https://github.com/michaldrabik/showly-2.0) / [ShowlyOSS](https://github.com/1RandomDev/showly-oss) **`MD-` `FOSS`**
+	- [Otraku](https://github.com/lotusgate/otraku) **`Full` `FOSS`**
+	- [MoeList](https://github.com/axiel7/MoeList) **`MD-` `FOSS`**
+	- [Compose Actors](https://github.com/RajashekarRaju/compose-actors) **`MD` `FOSS`**
+	- [Openreads](https://github.com/mateusz-bak/openreads-android) **`Full` `FOSS`**
+	- [NeverTooManyBooks](https://github.com/tfonteyn/NeverTooManyBooks) **`MD-` `FOSS`**
+	- [Luna](https://play.google.com/store/apps/details?id=com.jggdevelopment.bookbuddy) **`Full`**
+	- [Nyanpasu](https://play.google.com/store/apps/details?id=com.zhenxiang.nyaa) **`MD-` `Multi`**
+	- [Animite](https://github.com/imashnake0/Animite) **`Full` `FOSS`**
+	- [Moviebase](https://play.google.com/store/apps/details?id=com.moviebase) **`MD-`**
+	- [BookMan](https://play.google.com/store/apps/details?id=com.anafthdev.bookman) **`Full`**
+	- [AniHyou](https://github.com/axiel7/AniHyou-android) **`Full` `FOSS`**
+	- [Nekome](https://github.com/Chesire/Nekome) **`Full` `FOSS`**
+	- [Tivi](https://play.google.com/store/apps/details?id=app.tivi) **`Full`**
+	- [Pano Scrobbler for LastFM](https://play.google.com/store/apps/details?id=com.arn.scrobble) **`Full`**
+	- [Mikan](https://github.com/iota9star/mikan_flutter) **`Full` `Multi`**
+	- [OpenComicVine](https://github.com/proninyaroslav/OpenComicVine) **`Full` `FOSS`**
+- **Stocks**
+   	- [Stocks Widget](https://github.com/premnirmal/StockTicker) **`MD-` `Monet` `FOSS`**
+- **Traffic**
+   	- [Traewelldroid](https://github.com/Traewelldroid/traewelldroid) **`MD` `FOSS`**
+   	- [Ridebus](https://github.com/ridebus-by/ridebus) **`TODO` `FOSS`**
+   	- [Ahmedabad Metro](https://play.google.com/store/apps/details?id=ahmedabad.gandhinagar.metro.rail.project.info.mega) **`Full` `Multi` `💴`**
+- **Planting**
+   	- [Taru](https://github.com/nirajprakash/taru-plants-android) **`MD` `FOSS`**
+- **Babysitting**
+   	- [Babysafe](https://play.google.com/store/apps/details?id=at.techbee.babysafe) **`MD`**
+   	- [Aristo Kids Mental Accelerator](https://play.google.com/store/apps/details?id=com.aristo.aristokids) **`MD`**
+- **Competition**
+   	- [OpenBl](https://github.com/Ounzy/OpenBl) **`Full` `FOSS`**
+   	- [FRCFrenzy](https://github.com/galaxygoldfish/FRCFrenzy) **`TODO` `FOSS`**
+- **Smart Home**
+   	- [Universal Remote for Smart TVs](https://play.google.com/store/apps/details?id=com.quanticapps.universalremote) **`Full` `Multi`**
+   	- [openHAB](https://github.com/openhab/openhab-android) / [LogViewer for openHAB-App](https://github.com/cyb3rko/logviewer-for-openhab-app) **`Full` `FOSS`**
+   	- [RoByte](https://play.google.com/store/apps/details?id=com.tinybyteapps.robyte) **`MD-` `💴`**
+   	- [FotMob](https://play.google.com/store/apps/details?id=com.mobilefootie.wc2010) **`MD-` `💴`**
+   	- [Snow](https://github.com/sahej-dev/Snow) **`Full` `FOSS`**
+- **Others**
+   	- [Lis10](https://play.google.com/store/apps/details?id=com.urbandroid.lis10) **`Full`**
+   	- [SpaceHub](https://github.com/LPirro/SpaceHub) **`TODO` `FOSS`**
+	- [MemorizeApp](https://github.com/SuhasDissa/MemerizeApp) **`Full` `FOSS`**
+	- [Ridna](https://github.com/nexy791/Ridna) **`Full` `FOSS`**
+	- [Alovoa](https://github.com/Alovoa/alovoa-expo) **`MD-`**
+---
+### [🖌️Theming](#applist-menu)
+- **Launcher**    
+   	- [Niagara Launcher](https://play.google.com/store/apps/details?id=bitpit.launcher) **`Full` `Multi`**    
+   	- [Lawnchair](https://github.com/LawnchairLauncher/lawnchair) **`Full` `Multi` `FOSS`**    
+   	- [Simple Launcher](https://github.com/SimpleMobileTools/Simple-App-Launcher) **`Full` `Multi` `FOSS`**    
+   	- [Lunar Launcher](https://github.com/iamrasel/lunar-launcher) **`Full` `Multi` `FOSS`**
+   	- [Pixel Launcher Extended](https://github.com/saitamasahil/Pixel-Launcher-Extended) **`Full` `Multi` `FOSS`**    
+   	- [Kvaesitso](https://github.com/MM2-0/Kvaesitso) **`Full` `Multi` `FOSS`**    
+   	- [Action Launcher](https://play.google.com/store/apps/details?id=com.actionlauncher.playstore) **`Full` `Multi` `💴`**    
+   	- [AIO Launcher](https://play.google.com/store/apps/details?id=ru.execbit.aiolauncher) **`Full` `Multi` `💴`**    
+   	- [Nothing Launcher](https://play.google.com/store/apps/details?id=com.nothing.launcher) **`Full`**
+   	- [Stario Launcher](https://play.google.com/store/apps/details?id=com.stario.launcher) **`Full` `Multi` `💴`**
+   	- [Nova Launcher](https://novalauncher.com/beta) **`MD-` `Monet` `Multi`**
+   	- [Simple App Launcher](https://github.com/SimpleMobileTools/Simple-App-Launcher) **`MD-` `Monet` `Multi` `FOSS`**
+   	- [Mini Car Launcher](https://github.com/jamal2362/Mini-Car-Launcher) **`MD-` `Monet` `Multi` `FOSS`**
+- **Wallpapers**    
+   	- [Pix Wallpapers](https://play.google.com/store/apps/details?id=com.pashapuma.pix.wallpapers) **`Full`**    
+   	- [Swift Walls](https://play.google.com/store/apps/details?id=it.folgore95.mywall) **`Full`**    
+   	- [WallYou](https://github.com/Bnyro/WallYou) **`Full` `FOSS`**    
+   	- [Lamartine](https://play.google.com/store/apps/details?id=xyz.zedler.patrick.lamartine) **`Full`**    
+   	- [Doodle](https://github.com/patzly/doodle-android) **`Full` `FOSS`**    
+   	- [Papersplash](https://play.google.com/store/apps/details?id=com.jlindemann.papersplash) **`Full`**    
+   	- [Dynamic Wallpaper](https://play.google.com/store/apps/details?id=rk.android.app.dynamic.wallpaper) **`Full`**    
+   	- [Pixr](https://play.google.com/store/apps/details?id=com.paget96.pixr) **`Full`**    
+   	- [Pallax](https://github.com/patzly/pallax-android) **`Full` `FOSS`**    
+   	- [WAIFUPX](https://github.com/WaifuPX-DG/WaifuPX) **`Full` `FOSS`**    
+   	- [UtopiaWalls+](https://github.com/WaifuPX-DG/UtopiaWalls) **`Full` `FOSS`**    
+   	- [Backdrops](https://play.google.com/store/apps/details?id=com.backdrops.wallpapers) **`Full`**    
+   	- [MWalls](https://play.google.com/store/apps/details?id=com.theveloper.mwalls.app) **`Full`**    
+   	- [Nothingbutwallpapers](https://play.google.com/store/apps/details?id=com.dev.nothingbutwalls.app) **`Full`**    
+   	- [Wavy Wallpapers](https://play.google.com/store/apps/details?id=wavy.walls.droidbeauty.pack) **`Full`**    
+   	- [Wallrox Wallpapers](https://play.google.com/store/apps/details?id=com.material.wallrox) **`Full`**    
+   	- [Zade’s Wallpaper](https://github.com/zadeviggers/wallpaper) **`Full` `FOSS`**    
+   	- [Wallfever](https://play.google.com/store/apps/details?id=com.amaan.wallfever) **`Full`**    
+   	- [Team Pixel Wallpapers](https://play.google.com/store/apps/details?id=com.lagguy.teampixelwallpapers) **`Full`**    
+   	- [Smudgess](https://play.google.com/store/apps/details?id=com.gng.smudgess) **`Full`**    
+   	- [Widepaper](https://play.google.com/store/apps/details?id=com.lagguy.widepapers) **`Full`**    
+   	- [Abstracto](https://play.google.com/store/apps/details?id=com.lagguy.abstracto) **`Full`**    
+   	- [Frames](https://github.com/jahirfiquitiva/Frames) **`Full` `FOSS`**    
+   	- [Backdrops](https://play.google.com/store/apps/details?id=com.backdrops.wallpapers) **`MD`**    
+   	- [DualWallpaper](https://github.com/Yanndroid/DualWallpaper) **`Monet` `FOSS`**   
+   	- [iOSXPC Wallpapers](https://play.google.com/store/apps/details?id=com.iosxpc.wallpapers) **`Full`** 
+   	- [EveryNASA](https://play.google.com/store/apps/details?id=ru.murzify.everynasa) **`MD`**
+   	- [Stock Wallpapers](https://play.google.com/store/apps/details?id=com.phonewalls.stockwallpapers) **`Full`**
+   	- [Wallcanic Walls](https://play.google.com/store/apps/details?id=com.paradox.wallcanic) **`Full`**
+   	- [Music Live Wallpaper](https://play.google.com/store/apps/details?id=com.lstapps.musiclivewallpaper) **`MD`**
+   	- [WallpaperTunnel](https://github.com/Steve-Mr/WallpaperTunnel) **`MD`**
+   	- [Wallman](https://gitlab.com/colorata/wallman) **`Full` `Multi` `FOSS`**
+   	- [Walpix](https://play.google.com/store/apps/details?id=com.midori.wallpaper.photos) **`MD-` `Monet` `💴`**
+- **Icon Pack** 
+   	- [Liquor](https://gaopengk.github.io/2022/08/26/%E6%9B%B4%E6%96%B0-Liquor-%E5%9B%BE%E6%A0%87/) **`Full` `FOSS`**
+   	- [LawnIcons](https://github.com/LawnchairLauncher/lawnicons) **`Full` `FOSS`**
+   	- [Pure Iconpack](https://www.coolapk.com/apk/com.panpandada.pure) **`Full`**    
+   	- [Bar](https://www.coolapk.com/apk/com.bar.iconpack) **`Full`**    
+   	- [Cayicons](https://www.coolapk.com/apk/app.lawnchair.lawnicons) **`Full`**    
+   	- [Pix Material You Icons](https://play.google.com/store/apps/details?id=com.pashapuma.pix.material.you.iconpack) **`Full` `💴`**    
+   	- [Pix You Dark Android Icon Pack](https://play.google.com/store/apps/details?id=com.arjunarora.pix_you_cornflower_dark_icons) **`Full` `💴`**    
+   	- [Pix Material You Light/Dark](https://play.google.com/store/apps/details?id=com.pashapuma.pix.material.you.dark) **`Full` `💴`**    
+   	- [Pix Material Colors Icon Pack](https://play.google.com/store/apps/details?id=com.pashapuma.pix.material.color) **`Full` `💴`**    
+   	- [Themed Icons](https://play.google.com/store/apps/details?id=rk.android.app.themedicons) **`MD-` `Monet`**    
+   	- [Dynamic Icon Pack](https://play.google.com/store/apps/details?id=iconpack.onsurface.monet) **`Full` `💴`**    
+   	- [YouLine Iconpack](https://play.google.com/store/apps/details?id=com.asn360.youline.iconpack) **`Full` `💴`**    
+   	- [Chongyuan Iconpacklite](https://www.coolapk.com/apk/com.re.circle.lite) **`Full`**
+   	- [Saga Material You Icons](https://play.google.com/store/apps/details?id=com.lknninex.saga) **`Full` `💴`**    
+   	- [Epik Material You Icons](https://play.google.com/store/apps/details?id=com.lknninex.epik) **`Full` `💴`**    
+   	- [You Icon Pack](https://play.google.com/store/apps/details?id=com.jndapp.pastel.material.you.iconpack) **`Full` `💴`**    
+   	- [Material You Dynamic Icon Pack](https://play.google.com/store/apps/details?id=com.akbon.myd) **`Full` `💴`**    
+   	- [Adaptive You Icon Pack](https://play.google.com/store/apps/details?id=com.jndapp.adaptive.material.you.iconpack) **`Full` `💴`**    
+   	- [One You Icon Pack](https://play.google.com/store/apps/details?id=com.pashapuma.oneyou.icons) **`Full` `💴`**
+   	- [Alluring Iconpack](https://play.google.com/store/apps/details?id=com.arjunarora.alluring_iconpack) **`MD-` `Monet`**
+   	- [Glossy Blue Icons](https://play.google.com/store/apps/details?id=com.arjunarora.glossyblueicons) **`MD-` `Monet`**
+   	- [Wooden Icons](https://play.google.com/store/apps/details?id=com.arjunarora.woodenicons) **`MD-` `Monet`**
+   	- [Royale Blue Icons](https://play.google.com/store/apps/details?id=com.arjunarora.royaleblueicons) **`MD-` `Monet`**
+   	- [DGIcons](https://t.me/MaterialYouAppsChat/2362)  **`Full`**
+   	- [Giga Icon](https://play.google.com/store/apps/details?id=it.mirko.gigaicon) **`Full` `💴`**
+   	- [BluePrint](https://github.com/jahirfiquitiva/Blueprint) **`Full` `FOSS`**
+   	- [Whicons](https://play.google.com/store/apps/details?id=com.whicons.iconpack) **`Full`**
+   	- [Zwart](https://play.google.com/store/apps/details?id=com.blackiconpack.zwart) **`Full`**
+   	- [Arcticons](https://github.com/Donnnno/Arcticons)  **`Full`**
+- **Widget/KWGT**    
+   	- [Blur for You](https://www.coolapk.com/apk/com.riv3rdesign.you) **`MD-` `Monet`**    
+   	- [Android 12 Clock Widget](https://play.google.com/store/apps/details?id=twelve.clock.mibrahim) **`Full` `💴`**    
+   	- [Search Widget](https://play.google.com/store/apps/details?id=rk.android.app.searchbarwidget) **`MD-` `Monet` `💴`**    
+   	- [Clock Widget](https://play.google.com/store/apps/details?id=rk.android.app.clockwidget) **`MD-` `Monet` `💴`**  
+   	- [AppBar](https://play.google.com/store/apps/details?id=rk.android.app.appbar) **`MD-` `Monet` `💴`**   
+   	- [Music Widget Android 12](https://play.google.com/store/apps/details?id=com.lstapps.musicwidgetandroid12) **`Full` `💴`** 
+   	- [Bitcoin Timechain Widgets](https://github.com/gooGofZ/BitcoinTimechainWidgets) **`Full` `FOSS`**    
+   	- [Everyday](https://play.google.com/store/apps/details?id=com.pranavpandey.calendar) **`Full` `💴`**    
+   	- [Pix Material You Light/Dark](https://play.google.com/store/apps/details?id=com.pashapuma.pix.material.you.dark) **`Full` `💴`**    
+   	- [Material You Widget](https://play.google.com/store/apps/details?id=art.widgeet.android) **`Full` `💴`**    
+   	- [Android 13 Material You KWGT](https://play.google.com/store/apps/details?id=pixel.material.you.android.kwgt.widgets) **`Full` `💴`**    
+   	- [Battery Widget](https://play.google.com/store/apps/details?id=com.lstapps.batterywidget) **`Full` `💴`**    
+   	- [Android 12 Weather Widget](https://play.google.com/store/apps/details?id=twelve.weather.mibrahim) **`MD-` `Monet` `💴`**    
+   	- [Nothing Weather KOMP](https://github.com/bhaskar966/Nothing-Weather-KOMP) **`MD-` `Monet` `FOSS`**    
+   	- [Nothing KWGT](https://play.google.com/store/apps/details?id=nothing.cnt.kwgt) **`MD-` `Monet` `💴`**
+   	- [Lalitham](https://play.google.com/store/apps/details?id=com.novelijk.lalitham) **`Monet` `💴`**
+   	- [Android12 Weather Widget](https://play.google.com/store/apps/details?id=twelve.weather.mibrahim) **`MD-` `Monet` `💴`**
+   	- [Touch Find](https://play.google.com/store/apps/details?id=com.davesla.easyfind) **`Full` `💴`**
+   	- [Flip Clock](https://play.google.com/store/apps/details?id=art.widgeet.android.clock.flip) **`Full` `💴`**
+   	- [Daily Quotes Widget And Status](https://play.google.com/store/apps/details?id=com.lstapps.dailymotivationalquotewidget) **`MD` `💴`**
+   	- [Music Widgets for Car Devices](https://play.google.com/store/apps/details?id=com.lstapps.musicwidgetauto) **`MD` `💴`**
+   	- [Flip Clock](https://play.google.com/store/apps/details?id=art.widgeet.android.clock.flip) **`Full`**
+   	- [Yearly Progress](https://play.google.com/store/apps/details?id=com.a3.yearlyprogess) **`Full`**
+   	- [WiFi Widget](https://github.com/w2sv/WiFi-Widget) **`MD-` `FOSS`**
+- **Dynamic Island**    
+   	- [MaterialYou-Dynamic-Island](https://github.com/Angel-Studio/MaterialYou-Dynamic-Island) **`Full` `FOSS`**    
+   	- [Pixel Island](https://drive.google.com/drive/folders/1j1eWY73Zuq43kYHF6Qdjton8LZ02pA1C) **`Full` `👻`**    
+- **Native System Customization**    
+   	- [Seeker](https://play.google.com/store/apps/details?id=com.looper.seeker) **`Full`**
+   	- [DiscoverKiller](https://github.com/KieronQuinn/DiscoverKiller) **`Full` `FOSS`**    
+   	- [PixelLauncherMods](https://github.com/KieronQuinn/PixelLauncherMods) **`Full` `FOSS`**    
+   	- [QuickSwitch](https://github.com/skittles9823/QuickSwitch) **`Full` `FOSS`**
+   	- [Repainter](https://play.google.com/store/apps/details?id=dev.kdrag0n.dyntheme) **`Full` `💴`**    
+   	- [SystemUI Tuner](https://github.com/zacharee/Tweaker) **`MD-` `Monet` `Multi` `FOSS`**    
+   	- [PowerLine](https://play.google.com/store/apps/details?id=com.urbandroid.inline) **`Full`**    
+   	- [Palettes](https://play.google.com/store/apps/details?id=com.pranavpandey.theme) **`Full`**    
+   	- [Android 12 Extensions](https://github.com/kdrag0n/android12-extensions) **`MD-` `Monet` `FOSS` `👻`**   
+   	- [Iconify](https://github.com/Mahmud0808/Iconify) **`Full` `Multi` `FOSS`**
+   	- [Net Monitor](https://github.com/hushenghao/NativeTools) **`MD-` `Monet` `Multi` `FOSS`**
+   	- [Project Themer](https://play.google.com/store/apps/details?id=com.drsants.eggproject) **`MD` `💴`**
+   	- [Discover Killer](https://github.com/KieronQuinn/DiscoverKiller) **`Full` `FOSS`**
+   	- [Kuper](https://github.com/jahirfiquitiva/Kuper) **`MD-` `Monet` `FOSS`**
+- **GBoard Customization**
+   	- [Rboard Theme Manager](https://github.com/DerTyp7214/RboardThemeManagerV3) **`Full` `FOSS`**    
+   	- [Rboard Patcher](https://github.com/DerTyp7214/RboardPatcher) **`Full` `FOSS`**    
+   	- [Rboard Theme Creator](https://github.com/DerTyp7214/RboardThemeCreator) **`Full` `FOSS`**    
+   	- [Rboard IME Tester](https://github.com/DerTyp7214/RboardIMETester) **`Full` `FOSS`**    
+- **Monet Theme for Other Apps**
+   	- [Monet Generator](https://github.com/jamal2362/Monet-Generator) **`Full` `FOSS`**    
+   	- [MixTheme Creator](https://github.com/DerTyp7214/MixplorerThemeCreator) **`Full` `FOSS`**    
+   	- [Telegram Monet](https://github.com/c3r5b8/Telegram-Monet) **`Full` `FOSS`**    
+   	- [ComboSkin for 4PDA forum app](https://github.com/PycmShoma/4PDA-ComboSkin-MaterialYou) **`Monet` `FOSS`**    
+   	- [Theme Engine](https://github.com/prathameshmm02/ThemeEngine) **`Full` `FOSS`**
+   	- [Telegram Themer](https://github.com/therxmv/Telegram-Themer) **`MD` `FOSS`**
+   	- [TeleMone](https://github.com/Number869/TeleMone) **`Full`**
+- **Others**
+   	- [Energy Ring: Universal Edition](https://play.google.com/store/apps/details?id=you.in.spark.energy.ring.gen) **`MD-` `Monet` `💴`**
+---
+### [⚙️System Tools](#applist-menu)
+- **File Browser**
+   	- [Material Files](https://github.com/zhanghai/MaterialFiles) **`Full` `Multi` `FOSS`**
+   	- [Simple File Manager](https://github.com/SimpleMobileTools/Simple-File-Manager) **`Full` `FOSS`**
+   	- [File Explorer](https://github.com/Raival-e/File-Explorer) **`MD-` `Monet` `FOSS`**
+   	- [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver) **`Monet` `💴`**
+   	- [Root Explorer](https://t.me/projectmaterial/880) **`Monet` `MOD`**
+   	- [AnExplorer](https://github.com/1hakr/AnExplorer) **`Full` `Multi` `💴`**
+   	- [FTPClient](https://codeberg.org/qwerty287/ftpclient) **`Full` `FOSS`**
+   	- [PickYou](https://github.com/XayahSuSuSu/AndroidModule-PickYou) **`MD` `FOSS`**
+   	- [RSAF](https://github.com/chenxiaolong/RSAF) **`MD-` `Monet` `FOSS`**
+   	- [FileManager](https://github.com/Ruan625Br/FileManagerSphere) **`Full` `FOSS`**
+   	- [Syncthing](https://github.com/syncthing/syncthing-android) **`Full` `FOSS`**
+- **Hardware Infomation**
+   	- [DevCheck](https://play.google.com/store/apps/details?id=flar2.devcheck) **`Full` `💴`**
+   	- [Forefrontinfo](https://www.coolapk.com/apk/net.imknown.android.forefrontinfo) **`MD-` `Monet`**
+   	- [Inware](https://play.google.com/store/apps/details?id=com.evo.inware) **`Full`**
+   	- [YASNAC](https://github.com/RikkaW/YASNAC) **`Full` `FOSS`**
+   	- [Internet Speed](https://play.google.com/store/apps/details?id=com.paget96.netspeedindicator) **`Full`**
+   	- [CPU X](https://play.google.com/store/apps/details?id=com.abs.cpu_z_advance) **`Full` `💴`**
+   	- [Castro](https://play.google.com/store/apps/details?id=com.itemstudio.castro) **`Full` `💴`**
+   	- [TakoStats](https://play.google.com/store/apps/details?id=rikka.fpsmonitor) **`Full`**
+   	- [DiskInfo](https://play.google.com/store/apps/details?id=com.drhowdydoo.diskinfo) **`Full`**
+   	- [Display Info](https://play.google.com/store/apps/details?id=com.drhowdydoo.displayinfo) **`Full`**
+   	- [MemInfo](https://play.google.com/store/apps/details?id=com.drhowdydoo.meminfo) **`Full`**
+   	- [Treble Info](https://gitlab.com/TrebleInfo/TrebleInfo) **`Full` `FOSS`**
+   	- [CPU Monitor](https://play.google.com/store/apps/details?id=com.paget96.cpumonitor) **`Full`**
+   	- [Athena](https://github.com/SebaUbuntu/Athena) **`Full` `FOSS`**
+   	- [Geekbench 6](https://play.google.com/store/apps/details?id=com.primatelabs.geekbench6) **`MD`**
+   	- [Another Manager](https://1drv.ms/u/s!Atk49Scq_BtYhSQpedIgg4La48tC?e=lwQaf3) **`Full`**
+- **App Manager**
+   	- [Exodus](https://github.com/Exodus-Privacy/exodus-android-app) **`MD` `FOSS`**
+   	- [App Manager](https://github.com/MuntashirAkon/AppManager) **`Full` `FOSS`**
+   	- [LibChecker](https://github.com/LibChecker/LibChecker) **`Full` `FOSS`**
+   	- [Inure](https://github.com/Hamza417/Inure) **`Full` `FOSS` `💴`**
+   	- [Skit](https://play.google.com/store/apps/details?id=com.pavelrekun.skit) **`Full` `💴`**
+   	- [System Tools Android](https://play.google.com/store/apps/details?id=com.redhome.sta) **`MD-`**
+   	- [AppDash](https://play.google.com/store/apps/details?id=flar2.appdashboard) **`Full` `💴`**
+   	- [Ml Manager](https://play.google.com/store/apps/details?id=com.javiersantos.mlmanager) **`MD-`**
+   	- [Apk Extractor](https://play.google.com/store/apps/details?id=com.ytheekshana.apkextractor) **`Full`**
+   	- [App Watcher](https://1drv.ms/u/s!Atk49Scq_BtYhSXg62mgr93KVGq3?e=fa2RS9) **`MD`**
+   	- [Unapp](https://play.google.com/store/apps/details?id=vladyslavpohrebniakov.uninstaller) **`MD`**
+   	- [Appteka](https://t.me/waifupx_official/257) **`Full` `MOD`**
+   	- [App Info Manager](https://play.google.com/store/apps/details?id=com.bluckapps.appinfomanager) **`MD-`**
+- **Freezing Tool**
+   	- [Hail](https://github.com/aistra0528/Hail) **`Full` `Multi` `FOSS`**
+   	- [FreezeYou](https://github.com/FreezeYou/FreezeYou) **`MD-` `Monet` `FOSS`**
+   	- [Icebox](https://www.coolapk.com/apk/com.catchingnow.icebox) **`Monet` `💴`**
+- **App Store**
+   	- [Neo Store](https://github.com/NeoApplications/Neo-Store) **`Full` `FOSS`**
+   	- [Droid-ify](https://github.com/Iamlooker/Droid-ify) **`Full` `FOSS` <sup>`Full in CI builds`</sup>**
+   	- [Obtainium](https://github.com/ImranR98/Obtainium) **`Full` `FOSS`**
+   	- [Apps by GrapheneOS](https://github.com/GrapheneOS/Apps) **`MD-` `Monet` `FOSS`**
+   	- [Accrescent](https://github.com/accrescent/accrescent) **`Full` `FOSS`**
+   	- [Aurora Store](https://gitlab.com/AuroraOSS/AuroraStore) **`MD-` `Monet` `FOSS`**
+- **Safety & Privacy**
+   	- [AirGuard](https://github.com/seemoo-lab/AirGuard) **`MD-` `Monet` `FOSS`** 
+   	- [Privacy Dots](https://play.google.com/store/apps/details?id=com.paget96.privacydots) **`Full`**
+   	- [Help Me SOS](https://play.google.com/store/apps/details?id=com.paget96.helpme) **`Full`**
+   	- [SelfPrivacy](https://git.selfprivacy.org/kherel/selfprivacy.org.app) **`MD-` `Monet`**
+   	- [Amarok Hider](https://github.com/deltazefiro/Amarok-Hider) **`MD` `FOSS`**
+   	- [AstraCrypt](https://play.google.com/store/apps/details?id=com.nevidimka655.astracrypt) **`Full`**
+   	- [Crypto](https://play.google.com/store/apps/details?id=com.kokoschka.michael.crypto) **`Full`**
+   	- [AnonAddy](https://gitlab.com/Stjin/anonaddy-android) **`MD` `FOSS`**
+   	- [Hypatia](https://gitlab.com/divested-mobile/hypatia) **`Monet` `FOSS`**
+   	- [LibrePass](https://github.com/LibrePass/android) **`Full` `FOSS`**
+- **Equalizer**
+   	- [Wavelet](https://github.com/Pittvandewitt/Wavelet) **`Full` `FOSS`**
+   	- [ViperFX RE](https://t.me/WSTprojects/1567) **`Full`**  
+   	- [RootlessJamesDSP](https://github.com/thepbone/RootlessJamesDSP) **`Full` `FOSS`**
+   	- [Poweramp Equalizer](https://play.google.com/store/apps/details?id=com.maxmpz.equalizer) **`Monet` `💴`**
+   	- [Flat Equalizer](https://t.me/waifupx_official/221) **`Full`** 
+- **Permission Manager**
+   	- [Permission Pilot](https://github.com/d4rken-org/permission-pilot) **`MD` `FOSS`**
+   	- [App Ops](https://play.google.com/store/apps/details?id=rikka.appops) **`Full`**
+- **Shortcut**
+   	- [Anywhere-](https://play.google.com/store/apps/details?id=com.absinthe.anywhere_) **`Full`**
+   	- [Notification Shortcuts](https://play.google.com/store/apps/details?id=rk.android.app.notificationshortcuts) **`Full`**
+   	- [Shortcut Maker](https://play.google.com/store/apps/details?id=rk.android.app.shortcutmaker) **`Full` `💴`**
+   	- [Pinned Shortcuts](https://play.google.com/store/apps/details?id=rk.android.app.pinnedshortcuts) **`Full`**
+   	- [Shortcuts](https://www.coolapk.com/apk/com.syyf.quickpay) **`Full`**
+- **Activity Manager**
+   	- [Root Activity Launcher](https://t.me/misakamaterial/123) **`Full` `Multi` `💴`**
+   	- [Activity Manager](https://github.com/sdex/ActivityManager) **`MD-` `FOSS`**
+- **Backup**
+   	- [DataBackup](https://github.com/XayahSuSuSu/Android-DataBackup) **`Full` `FOSS`**
+   	- [Neo Backup](https://github.com/NeoApplications/Neo-Backup) **`Full` `FOSS`**
+   	- [Swift Backup](https://play.google.com/store/apps/details?id=org.swiftapps.swiftbackup) **`MD-` `Monet`**
+   	- [Webackup](https://www.coolapk.com/apk/top.xjunz.webackup) **`MD-` `💴`**
+- **Battery Manager**
+   	- [Battery Charge Limiter](https://github.com/MuntashirAkon/BatteryChargeLimiter) **`MD-` `Monet` `FOSS`** 
+   	- [Battery Guru](https://play.google.com/store/apps/details?id=com.paget96.batteryguru) **`Full` `💴` `👻`**
+   	- [Batt](https://gitlab.com/narektor/batt) **`MD-` `FOSS`**
+   	- [Baterai](https://play.google.com/store/apps/details?id=com.redmerah.baterai) **`MD`**
+   	- [AccuBattery](https://play.google.com/store/apps/details?id=com.digibites.accubattery) **`MD-` `Multi` `💴`**
+- **Screen Display**
+   	- [Twilight](https://play.google.com/store/apps/details?id=com.urbandroid.lux) **`MD`**
+   	- [Blue Light Filter](https://play.google.com/store/apps/details?id=com.paget96.bluelightfilter) **`Full`**
+   	- [Coffee](https://github.com/mueller-ma/Coffee) **`Full` `FOSS`** 
+   	- [Caffeine](https://play.google.com/store/apps/details?id=moe.zhs.caffeine) **`Full`**
+   	- [Extinguish](https://www.coolapk.com/apk/own.moderpach.extinguish) **`Full`**    
+   	- [NightScreen](https://github.com/SkyD666/NightScreen) **`Full` `FOSS`**    
+- **TTS**    
+   	- [TTS Server](https://github.com/jing332/tts-server-android) **`Full` `FOSS`**   
+   	- [Transcriber](https://play.google.com/store/apps/details?id=it.mirko.transcriber) **`Full`**    
+   	- [Sayit](https://play.google.com/store/apps/details?id=com.urbandroid.sayit) **`Full`**   
+   	- [TTS DictEditor](https://github.com/jing332/TtsDictEditor) **`MD` `FOSS`** 
+- **Cleaner**    
+   	- [Qingzhuo](https://www.coolapk.com/apk/com.farplace.qingzhuo) **`MD-` `Monet` `Multi` `💴`**    
+   	- [SD Maid SE](https://github.com/d4rken-org/sdmaid-se) **`Full` `💴`**
+   	- [Cleaner](https://github.com/MaterialCleaner/MaterialCleaner) **`Full` `💴`**
+   	- [Extripater](https://gitlab.com/divested-mobile/extirpater) **`Monet` `FOSS`**
+- **Logger/Feedback**   
+   	- [logfox](https://github.com/F0x1d/LogFox) **`Full` `FOSS`**    
+   	- [logra](https://github.com/wingio/Logra) **`Full` `FOSS`**    
+- **Link Manager**   
+   	- [URLCheck](https://github.com/TrianguloY/UrlChecker) **`MD-` `Monet` `FOSS`**    
+   	- [LinkSheet](https://github.com/1fexd/LinkSheet) **`Full` `FOSS`**    
+   	- [My Link Manager](https://play.google.com/store/apps/details?id=com.michaelflisar.linkmanager) **`MD-` `Monet`**
+   	- [Tarnhelm](https://github.com/Xposed-Modules-Repo/cn.ac.lz233.tarnhelm) **`Full` `Multi` `FOSS`** 
+   	- [Leon](https://github.com/svenjacobs/leon) **`Full` `FOSS`**
+- **Installer**    
+   	- [InstallerX](https://github.com/iamr0s/InstallerX) **`Full` `Multi` `FOSS`**    
+   	- [APK Installer](https://wwfb.lanzoue.com/iZRpF0rbj1ba?p) **`Full` `FOSS`**    
+- **Notification Filter**   
+   	- [Notification Filter](https://www.coolapk.com/apk/top.webb_l.notificationfilter) **`MD-` `Monet` `💴`**   
+   	- [Filter Box](https://www.coolapk.com/apk/com.catchingnow.np) **`MD-` `Monet` `💴`**
+   	- [One Nofication](https://www.coolapk.com/apk/cn.skyrin.ntfh) **`MD` `💴`**
+   	- [NITM](https://github.com/deskbtm/nitmgpt) **`MD` `FOSS`**
+   	- [Buzzkill](https://play.google.com/store/apps/details?id=com.samruston.buzzkill) **`MD-` `💴`**
+- **Clipboard Manager**
+   	- [Memory Guardian](https://github.com/hashemi-hossein/memory-guardian) **`Full` `FOSS`**
+   	- [Clipboard Cleaner](https://github.com/thatsmanmeet/Clipboard-Cleaner) **`Monet` `FOSS`**
+   	- [Drag and Drop Transfer Station Lite](https://gitee.com/Jesse205/DragAndDropTransferStationLite) **`Monet` `FOSS`**
+- **Others**    
+   	- [Data Monitor](https://github.com/itsdrnoob/DataMonitor) **`Full` `FOSS`**   
+   	- [DarQ](https://github.com/KieronQuinn/DarQ) **`MD-` `FOSS`**
+   	- [FarPush](https://www.coolapk.com/apk/com.farplace.farpush) **`MD` `💴`**       
+   	- [Inputswitcher](https://www.coolapk.com/apk/com.inputswitcher) **`Monet`**    
+   	- [Calmanager](https://www.coolapk.com/apk/fun.lifeupapp.calmanager) **`Full`**    
+   	- [Rotation](https://play.google.com/store/apps/details?id=com.pranavpandey.rotation) **`Full` `Multi`**    
+   	- [Flip DND](https://play.google.com/store/apps/details?id=com.urbandroid.dnd) **`Full`**    
+   	- [Mock My GPS](https://github.com/warren-bank/Android-Mock-Location) **`Monet` `FOSS`**    
+   	- [WearOS Box](https://www.coolapk.com/apk/com.flyfishstudio.wearosbox) **`Full`**    
+   	- [Mediascanner](https://www.coolapk.com/apk/com.ma.mediascanner) **`MD-`**    
+   	- [Screen Refresh Rate](https://1drv.ms/u/s!Atk49Scq_BtYhGa4_8QAcwYhDFgH?e=mRiGAm) **`Full`**    
+   	- [Carrier Vanity Name](https://github.com/nullbytepl/CarrierVanityName) **`MD`** 
+   	- [LittleProcessy](https://www.coolapk.com/apk/com.absinthe.littleprocessy) **`Full`**
+   	- [Sensors](https://play.google.com/store/apps/details?id=com.ms.sensors) **`MD-`**
+   	- [Language Selecter](https://github.com/VegaBobo/Language-Selector) **`Full` `FOSS`**
+   	- [EdgeBlock](https://play.google.com/store/apps/details?id=flar2.edgeblock) **`Full`**
+   	- [Accessibility Manager](https://www.coolapk.com/apk/com.accessibilitymanager) **`Monet`**
+   	- [Mute Reminder](https://github.com/mueller-ma/MuteReminder) **`MD` `FOSS`**
+   	- [Sim Card Store Management](https://github.com/maxrave-dev/SimCardStoreManagement) **`MD` `FOSS`**
+   	- [ZipXtract](https://github.com/WirelessAlien/ZipXtract) **`Full` `FOSS`**
+---
+### [🧰Tools](#applist-menu)
+- **Downloader**
+   	- [ADM](https://play.google.com/store/apps/details?id=com.dv.adm) **`Monet` `Multi` `💴`**    
+   	- [Seal](https://github.com/JunkFood02/Seal) **`Full` `FOSS`**    
+   	- [YOSBiliVideoDown](https://github.com/Yos-X/YBVD_Release) **`Full`**    
+   	- [YTDLnis](https://github.com/deniscerri/ytdlnis) **`Full` `Multi` `FOSS`**    
+   	- [Spowlo](https://github.com/BobbyESP/Spowlo) **`Full` `FOSS`**
+   	- [Tweeload](https://play.google.com/store/apps/details?id=tweeload.twitter.video.downloader) **`MD-` `Monet` `💴`**
+   	- [qBittorrent Manager](https://github.com/Yash-Garg/qBittorrent-Manager) **`MD` `FOSS`**
+- **App Downloader**   
+   	- [Revanced Manager](https://github.com/revanced/revanced-manager) **`Full` `FOSS`**    
+   	- [AliucordRN](https://github.com/Aliucord/AliucordRN) **`Full` `FOSS`**    
+   	- [Vendetta Manager](https://github.com/vendetta-mod/VendettaManager) **`Full` `FOSS`** 
+   	- [BiTGApps](https://bitgapps.io/app) **`Full`**
+   	- [SongTube](https://github.com/SongTube/SongTube-App) **`MD-` `FOSS`**
+- **Resources Searching Tool**   
+   	- [Magic Search](https://www.123pan.com/s/izDSVv-0JQWA) **`MD` `Multi`**   
+   	- [Hunhepan](https://hunhepan.com/) **`MD`**    
+- **Netdisk** 
+   	- [lanzoucloud](https://1drv.ms/u/s!Atk49Scq_BtYhGd4LJN1fJftw-HQ?e=5jznMk) **`MD`**    
+   	- [FolderSync](https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.lite) **`Full` `Multi` `💴`**    
+   	- [Nextcloud Deck](https://github.com/stefan-niedermann/nextcloud-deck) **`MD` `FOSS`**    
+   	- [Nextcloud Talk](https://github.com/nextcloud/talk-android) **`MD` `FOSS`**
+   	- [Nextcloud Tablets](https://github.com/stefan-niedermann/nextcloud-tables) **`MD`**
+   	- [Pho](https://github.com/fregie/pho) **`MD` `FOSS`**
+   	- [AlistAndroid](https://github.com/jing332/AlistAndroid) **`Full` `FOSS`**
+- **Keyboard**    
+   	- [Simple Keyboard](https://github.com/SimpleMobileTools/Simple-Keyboard) **`Full` `FOSS`**    
+   	- [Yandex Keyboard](https://play.google.com/store/apps/details?id=ru.yandex.androidkeyboard) **`Monet` `FOSS`**    
+   	- [thumb-key](https://github.com/dessalines/thumb-key) **`Full` `FOSS`**    
+   	- [Rkkr's Simple Keyboard](https://github.com/rkkr/simple-keyboard) **`Monet` `FOSS`**
+   	- [Remote Numpad](https://github.com/theolizard/remote-numpad) **`MD-` `Monet` `FOSS`** 
+   	- [KrypeEY](https://github.com/amnesica/KryptEY) **`Monet` `FOSS`**
+   	- [FBoard](https://t.me/fredboard/42) **`Full`**
+- **Calculator**   
+   	- [yetCalc](https://github.com/Yet-Zio/yetCalc) **`MD-` `Monet` `Multi` `FOSS`**    
+   	- [Unitto](https://github.com/sadellie/unitto) **`Full` `Multi` `FOSS`**    
+   	- [Calculator-inator](https://github.com/prathameshmm02/Calculator-inator) **`Full` `Multi` `FOSS`**    
+   	- [OpenCalc](https://github.com/Darkempire78/OpenCalc) **`Full` `Multi` `FOSS`**    
+   	- [All-In-One Calculator](https://play.google.com/store/apps/details?id=all.in.one.calculator) **`MD-` `Monet` `Multi` `💴`**    
+   	- [Simple Calculator](https://github.com/SimpleMobileTools/Simple-Calculator) **`Full` `Multi` `FOSS`**    
+   	- [Currencies](https://github.com/sal0max/currencies) **`MD-` `Monet` `Multi` `FOSS`**   
+   	- [Tip Calculator](https://play.google.com/store/apps/details?id=com.chimbori.milliways) **`Full`**      
+   	- [Cart Calculator](https://github.com/D4rK7355608/com.d4rk.cartcalculator) **`Full` `FOSS`**
+   	- [Calculator](https://play.google.com/store/apps/details?id=com.redmerah.calculator) **`MD`**
+   	- [zCalc](https://github.com/ziadOUA/zCalc) **`MD-` `Monet` `FOSS`**
+   	- [Kalculator](https://github.com/re-ovo/Kalculator) **`👻` `FOSS`**
+   	- [Math Calculator](https://github.com/v1tzor/MathCalculator) **`Full` `FOSS`**
+   	- [Multi Caculator](https://play.google.com/store/apps/details?id=com.yangdai.calc) **`Full` `Multi` `FOSS` `FOSS`**
+   	- [Physics Calculator](https://play.google.com/store/apps/details?id=com.a3.apurv.phyCalc) **`Full`**
+   	- [Mint Calculator](https://github.com/boredcodebyk/mintcalc) **`Full` `Multi` `FOSS`**
+   	- [Calculator Compose](https://github.com/kafri8889/Calculator-Compose) **`TODO`**
+- **Translator**    
+   	- [Translate You](https://github.com/Bnyro/TranslateYou) **`Full` `FOSS`**    
+   	- [FunnyTranslation](https://github.com/FunnySaltyFish/FunnyTranslation) **`Full` `Multi` `💴`**    
+   	- [Lentil Translate](https://github.com/yaxarat/lingvaandroid) **`Full` `FOSS`**
+   	- [Monocles Translator](https://codeberg.org/Arne/monocles_translator) **`Full` `FOSS`**
+   	- [Instant Translator](https://play.google.com/store/apps/details?id=com.spaceship.screen.textcopy) **`MD-`**    
+- **Recorder**
+   	- [micCheck](https://play.google.com/store/apps/details?id=com.jlong.miccheck) **`Full`**    
+   	- [Record You](https://github.com/Bnyro/recordYou) **`Full` `FOSS`**    
+   	- [Simple Voice Recorder](https://github.com/SimpleMobileTools/Simple-Voice-Recorder) **`Full` `FOSS`**    
+   	- [Audio Notes](https://github.com/certified84/AudioNote) **`MD-` `FOSS`**
+   	- [You Tune](https://github.com/SuhasDissa/You-Tune) **`TODO` `FOSS`**
+- **Scanner**    
+   	- [Monochrome](https://play.google.com/store/apps/details?id=moe.zhs.monochrome) **`Full` `💴`**    
+   	- [Barcode Scanner](https://gitlab.com/Atharok/BarcodeScanner) **`Full` `Multi` `FOSS`**    
+   	- [Barquode](https://play.google.com/store/apps/details?id=com.pranavpandey.matrix) **`Full` `Multi` `💴`**   
+   	- [Codora](https://play.google.com/store/apps/details?id=com.kokoschka.michael.qrtools) **`MD-` `Monet` `💴`**    
+   	- [Pixel Scanner](https://github.com/jaikeerthick/Pixel-Scanner) **`TODO` `FOSS`**
+   	- [MyQR](https://github.com/sankethsj/qr-code-generator) **`Full` `FOSS`**
+   	- [ShowMeMore](https://play.google.com/store/apps/details?id=app.wakirox.freecensorship) **`Full`**
+   	- [QScan](https://github.com/Henry-Hiles/QScan) **`Full` `FOSS`**
+   	- [Simple OCR](https://play.google.com/store/apps/details?id=com.yangdai.simpleocr) **`Full` `FOSS`**
+- **Flashlight**    
+   	- [Tiramisu](https://github.com/polodarb/Flashlight-Tiramisu) **`Full` `FOSS`**    
+   	- [Flashdim](https://github.com/cyb3rko/flashdim) **`Full` `FOSS`**    
+   	- [Shake Flashlight](https://play.google.com/store/apps/details?id=com.paget96.shakeflashlight) **`Full`**
+   	- [Simple Flashlight](https://github.com/SimpleMobileTools/Simple-Launcher) **`Full` `FOSS`**    
+- **Clock**    
+   	- [Clock You](https://github.com/Bnyro/ClockYou) **`Full` `FOSS`**    
+   	- [Floattime](https://www.coolapk.com/apk/com.kimger.floattime) **`MD-`**    
+   	- [Simple Clock](https://github.com/SimpleMobileTools/Simple-Clock) **`Full` `FOSS`** 
+   	- [Atomic Clock](https://play.google.com/store/apps/details?id=partl.atomicclock) **`Full`**
+- **Stopwatch**
+   	- [Stopwatch (Wear OS)](https://play.google.com/store/apps/details?id=com.redmerah.stopwatch) **`Full` `Multi`**
+   	- [Stopwatch](https://play.google.com/store/apps/details?id=com.redmerah.stopwatch) **`MD`**
+- **Timer**
+   	- [Workout Timer](https://play.google.com/store/apps/details?id=com.paget96.workouttimer) **`Full`**    
+   	- [Cofi](https://github.com/rozPierog/Cofi) **`Full` `Multi` `FOSS`**
+   	- [Working Rours](https://play.google.com/store/apps/details?id=partl.workinghours) **`Full`**
+   	- [Cuppa](https://github.com/ncosgray/cuppa_mobile) **`Full` `FOSS`**
+   	- [Timer +X](https://gitlab.com/humbertofraga/timerx) **`MD-` `FOSS`**   
+   	- [Floating Timer](https://github.com/tberghuis/FloatingCountdownTimer) **`Full` `FOSS`**    
+- **Compass**    
+   	- [Compass](https://github.com/Kr0oked/Compass) **`MD-` `Monet` `FOSS`**  
+- **2FA**
+   	- [Mauth](https://github.com/X1nto/Mauth) **`Full` `FOSS`** 
+   	- [Authenticator Pro](https://github.com/jamie-mh/AuthenticatorPro) **`Full` `FOSS`**
+   	- [Keyring OTP](https://gitlab.com/aorszulak/keyring) **`Full` `FOSS`**
+   	- [Kakunin](https://github.com/zsakvo/Kakunin-Mobile) **`Full` `FOSS`**
+   	- [Bitwarden Authenticator](https://play.google.com/store/apps/details?id=com.bitwarden.authenticator) **`MD`**
+- **Password Manager**    
+   	- [Keyspace](https://github.com/Keyspace-cloud/android) **`MD` `FOSS`**    
+   	- [PassStore](https://play.google.com/store/apps/details?id=app.jjyy.passstore) **`Full` `💴`**    
+   	- [Pazzword](https://github.com/cyb3rko/pazzword) **`Full` `FOSS`**    
+   	- [Pincredible](https://github.com/cyb3rko/pincredible) **`Full` `FOSS`**    
+   	- [Wassword](https://github.com/polilluminato/wassword-flutter) **`MD` `FOSS`**    
+   	- [Keyguard for Bitwarden](https://play.google.com/store/apps/details?id=com.artemchep.keyguard) **`Full` `Multi` `💴`**   
+   	- [Simple Password](https://github.com/grigorevmp/Simple_Passwords_QuickPass) **`Full` `FOSS`**
+   	- [Password Manager](https://github.com/OffRange/PasswordManager) **`Full` `FOSS`**
+   	- [IYPS](https://github.com/the-weird-aquarian/IYPS) **`MD` `FOSS`**
+   	- [KeePassDX](https://github.com/Kunzisoft/KeePassDX) **`Full` `💴`**
+- **Sender**      
+   	- [Warpinator](https://github.com/slowscript/warpinator-android) **`MD-` `Monet` `FOSS`**    
+   	- [Arc](https://play.google.com/store/apps/details?id=com.quadren.arc) **`Full` `FOSS`**    
+   	- [LocalSend](https://github.com/localsend/localsend) **`Full` `Multi` `FOSS`**       
+   	- [Photon](https://github.com/abhi16180/photon) **`MD-` `FOSS`**
+   	- [Fei](https://github.com/storytellerF/Fei) **`Full` `FOSS`** 
+- **Connecting Tool**
+   	- [FnSync](https://www.coolapk.com/apk/holmium.fnsync.ngp) **`Full`**
+   	- [KDE Connect](https://invent.kde.org/network/kdeconnect-android) **`Full` `Multi` `FOSS`**
+   	- [Octi](https://github.com/d4rken-org/octi) **`MD-` `Monet` `FOSS`**
+- **Peripheral**    
+   	- [MiDoze](https://github.com/Keddnyo/MiDoze) **`Full` `FOSS`**    
+   	- [CAPod](https://github.com/d4rken-org/capod) **`MD` `FOSS`**    
+   	- [OpenSCQ30](https://github.com/Oppzippy/OpenSCQ30) **`Full` `FOSS`**    
+   	- [Yubico Authenticator](https://github.com/Yubico/yubioath-flutter) **`Full` `Multi` `FOSS`**
+   	- [RS Tool](https://1drv.ms/u/s!Atk49Scq_BtYhHsoHNUSMxfYyauF?e=AeEWov) **`MD`**
+   	- [WLED Native](https://github.com/Moustachauve/WLED-Native-Android) **`MD` `Multi` `FOSS`**
+- **AI**    
+   	- [ChatGPT](https://play.google.com/store/apps/details?id=com.openai.chatgpt) **`MD` `💴`**
+   	- [Colors AI](https://github.com/tsinis/colors_ai) **`Full` `FOSS`**    
+   	- [CommuniqAI](https://play.google.com/store/apps/details?id=dev.mtc.ga) **`MD-`**    
+   	- [BotForge](https://github.com/L4TTiCe/BotForge) **`Full` `FOSS`**    
+   	- [TalkAI](https://play.google.com/store/apps/details?id=studio.muggle.talkai) **`MD`**    
+   	- [ChatBoost](https://play.google.com/store/apps/details?id=studio.muggle.chatboost) **`MD`**    
+   	- [Sense](https://github.com/F0x1d/Sense) **`Full` `FOSS`**  
+   	- [Stable Difusion AI](https://play.google.com/store/apps/details?id=com.shifthackz.aisdv1.app) **`Full`**
+   	- [NeoGPT](https://play.google.com/store/apps/details?id=com.lware.neogpt) **`MD`**
+   	- [Echo](https://play.google.com/store/apps/details?id=com.niven.chat) **`MD`**
+   	- [ChatGPT](https://github.com/thewolfprod/ChatGPT-Android) **`TODO` `FOSS`**
+   	- [Genie Anime](https://play.google.com/store/apps/details?id=com.vyroai.animeart) / [Imagine](https://play.google.com/store/apps/details?id=com.vyroai.aiart) **`MD` `💴`**
+   	- [Shrad AI](https://play.google.com/store/apps/details?id=com.shifastudios.shradai) **`MD`**
+   	- [Material GPT](https://github.com/DylanAkp/MaterialGPT) **`MD` `FOSS`**
+   	- [VIC](https://github.com/iamlooper/VIC) **`Full`**
+   	- [PixAI Art](https://play.google.com/store/apps/details?id=art.pixai.pixai) **`MD`**
+- **Auto Clicker**    
+   	- [TapTap](https://github.com/KieronQuinn/TapTap) **`Full` `FOSS`**    
+   	- [Auto Tasker](https://www.coolapk.com/apk/top.xjunz.tasker) **`MD` `💴`**    
+   	- [Smart AutoClicker](https://github.com/Nain57/Smart-AutoClicker) **`Full` `FOSS`**    
+   	- [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm) **`Monet`**
+   	- [Click Assistant](https://wwxt.lanzout.com/b0dn18zwd) (Password: 7vm2) **`Full`**
+   	- [ShortX](https://play.google.com/store/apps/details?id=tornaco.apps.shortx) **`Full` `💴`**
+   	- [Touch Tool Pro](https://github.com/mr-bogey/TouchToolPro) **`Full`**
+- **Searching Tool**    
+   	- [Gugal](https://gitlab.com/narektor/gugal) **`Full` `FOSS`**    
+   	- [Pixel Search](https://play.google.com/store/apps/details?id=rk.android.app.pixelsearch) **`Full`**
+   	- [Tunedetective](https://github.com/n000tavailable/tunedetective) **`Full` `FOSS`**      
+- **MIUI ROM Downloading Tool**   
+   	- [MIUI Rom](https://t.me/miuiappshare) **`Full`**    
+   	- [downmi](https://play.google.com/store/apps/details?id=xyz.izadi.downmi2) **`Full` `💴`**    
+- **Toolbox**    
+   	- [Voyage Toolbox](https://1drv.ms/u/s!Atk49Scq_BtYhGh4H5XMwB_QVDKK?e=uogimG) **`Full`**    
+   	- [Xiaobu Toolbox](https://www.coolapk1s.com/feed/45145335) **`Full`**
+   	- [Sevendots Toolbox](https://1drv.ms/u/s!Atk49Scq_BtYhHkWJxcDuAPY25PZ?e=l89paX) **`Full` `⚠️`** ([Evidence](https://www.coolapk1s.com/feed/46962117))
+   	- [Plain](https://github.com/ismartcoding/plain-app) **`Full` `FOSS`**
+   	- [Tool Master](https://dmla.lanzouo.com/b05pbb76b) **`MD`**
+   	- [Twilight](https://1drv.ms/u/s!Atk49Scq_BtYhSI9zraqM2p6NfMG?e=mGHiiV) **`Full`**
+   	- [Container](https://wwqp.lanzoue.com/i4Tc610sysre?p) **`MD`**
+- **Proxy**
+   	- [Surfboard](https://play.google.com/store/apps/details?id=com.getsurfboard) **`Full` `Multi`**
+   	- [Clash Multiplatform](https://t.me/+kqvN73Ap1ixhY2Q1) **`MD` `Multi` `👻`**
+   	- [WireGuard](https://play.google.com/store/apps/details?id=com.wireguard.android) **`Full` `FOSS`**
+   	- [WS Proxy](https://gitlab.com/Nekogram/wsproxy) **`Full` `FOSS`**
+   	- [Surf VPN](https://play.google.com/store/apps/details?id=com.xfx.surfvpn) **`Full` `💴`**
+   	- [Clash You](https://github.com/Yos-X/ClashYou) **`Full` `FOSS`**
+   	- [sing-box](https://github.com/SagerNet/sing-box/releases) **`Full` `FOSS`**
+   	- [Hiddify](https://github.com/hiddify/hiddify-next) **`MD` `FOSS`**
+   	- [FlClash](https://github.com/chen08209/FlClash) **`Full` `Multi` `FOSS`**
+- **Measuring**
+   	- [Bubble Level](https://play.google.com/store/apps/details?id=com.codeclickers.bubblelevel) **`MD`** 
+   	- [Lightmeter](https://github.com/vodemn/m3_lightmeter) **`Full` `FOSS`**
+   	- [Sound Meter](https://play.google.com/store/apps/details?id=com.codeclickers.soundmeter) **`Full`**
+- **Others**    
+   	- [TSViewer](https://github.com/BlazeCodeDev/TSViewer) **`Full` `FOSS`**    
+   	- [Easter Eggs](https://github.com/hushenghao/AndroidEasterEggs) **`Full`**    
+   	- [Beta Maniac](https://play.google.com/store/apps/details?id=it.mirko.beta) **`Full`**      
+   	- [Rays](https://github.com/SkyD666/Rays-Android) **`Full` `Multi` `FOSS`**    
+   	- [BilibiliFork](https://github.com/gitofleonardo/BilibiliFork) **`MD` `FOSS`**    
+   	- [Pocket Mode](https://play.google.com/store/apps/details?id=com.artemchep.pocketmode) **`Full`**
+   	- [FontConverter](https://github.com/123Duo3/FontConverter) **`Full` `Multi` `FOSS`**
+   	- [Secret Screenshots](https://play.google.com/store/apps/details?id=com.lware.secret_screenshots) **`MD`**
+   	- [Textbender](https://github.com/elizagamedev/android-textbender) **`Monet` `FOSS`**
+   	- [Simple Thank You](https://github.com/SimpleMobileTools/Simple-Thank-You) **`Full` `💴`**
+   	- [Life Chest](https://github.com/theskyblockman/life-chest) **`Full` `FOSS`**
+   	- [Encryptor](https://play.google.com/store/apps/details?id=com.yangdai.encryptor) **`Full` `Multi` `FOSS`**
+   	- [Text Converter](https://play.google.com/store/apps/details?id=com.codeclickers.textconverter) **`Full`**
+   	- [KeyManager](https://github.com/Yash-Garg/KeyManager) **`Full` `FOSS`**
+---
+### [🔧Developer Tools](#applist-menu)
+- **Server**    
+   	- [AdGuard Home Manager](https://github.com/JGeek00/adguard-home-manager) **`Full` `Multi` `FOSS`**    
+   	- [My Server Status](https://github.com/JGeek00/my-server-status-app) **`Full` `FOSS`**    
+   	- [DroidHole](https://github.com/JGeek00/droid-hole) **`Full` `FOSS`**    
+   	- [DaRemote](https://play.google.com/store/apps/details?id=com.deskangel.daremote) **`Full`**    
+   	- [Tremotesf](https://github.com/equeim/tremotesf-android) **`Monet` `FOSS`**  
+   	- [Plex Manager](https://github.com/sikelio/plexmanager) **`MD-` `FOSS`**
+   	- [Simple WOL](https://github.com/herzhenr/simple-wake-on-lan) **`MD` `FOSS`**
+   	- [ServerBox](https://github.com/lollipopkit/flutter_server_box) **`MD` `FOSS`**
+- **Componets & Demo**    
+   	- [Monet Color Previewer](https://github.com/Smooth-E/monet-color-previewer) **`Full` `FOSS`**    
+   	- [Material Components Gallery](https://github.com/NUmeroAndDev/MaterialGallery-android) **`Full` `FOSS`**    
+   	- [Android Material UI/UX](https://play.google.com/store/apps/details?id=com.boltuix.materialuiux) **`Full`**    
+   	- [Material Design Componets](https://play.google.com/store/apps/details?id=io.materialdesign.catalog) **`Full`**    
+   	- [Material You Style and Color G](https://play.google.com/store/apps/details?id=io.joshking.materialyoucolorviewer) **`Full`**    
+   	- [Material You Colors](https://play.google.com/store/apps/details?id=com.ch3d.material.color) **`Monet`**    
+   	- [Material Design 3 Android](https://play.google.com/store/apps/details?id=com.anafthdev.materialdesign3) **`Full`**    
+   	- [Goldex](https://play.google.com/store/apps/details?id=com.goldex) **`Full`**
+   	- [Compose Material Design 3](https://play.google.com/store/apps/details?id=com.anafthdev.md3compose) **`Full`**    
+   	- [Material 3](https://play.google.com/store/apps/details?id=com.boltuix.material3) **`MD`** **`Multi`**
+   	- [WaveSlider](https://github.com/galaxygoldfish/waveslider) **`Full` `FOSS`**
+   	- [Now In Android](https://github.com/android/nowinandroid) **`Full` `Multi` `FOSS`**
+- **Android Studio Tutorials**
+   	- [Android Studio Tutorials: Kotlin](https://github.com/D4rK7355608/com.d4rk.androidtutorials) **`Full` `FOSS`**    
+   	- [Android Studio Tutorials: Java](https://github.com/D4rK7355608/com.d4rk.androidtutorials.java) **`Full` `FOSS`**
+- **Termux**
+   	- [Termux Monet](https://github.com/HardcodedCat/termux-monet) **`Monet` `FOSS`** 
+   	- [TermPlux](https://github.com/TermPlux/TermPlux-App) **`MD-` `Monet` `FOSS`**
+   	- [Termius](https://play.google.com/store/apps/details?id=com.server.auditor.ssh.client) **`MD-` `💴`**  
+- **Lua**
+   	- [SWKLua](https://www.coolapk1s.com/feed/44867507) **`Full`**   
+   	- [Windmill](https://www.coolapk.com/apk/com.agyer.windmill) **`Full` `Multi`**
+   	- [AndroLuaX](https://github.com/AideLua/AndroLuaX) **`Full`**
+- **Others**
+   	- [APK Editor](https://t.me/WSTprojects/1509) **`Full`**    
+   	- [HalfDot](https://github.com/davquar/halfdot) **`MD` `FOSS`**    
+   	- [Gloom](https://github.com/MateriiApps/Gloom) **`MD` `FOSS`**    
+   	- [M3O](https://github.com/m3o/m3o-android) **`MD` `FOSS`**    
+   	- [SetEdit](https://github.com/MuntashirAkon/SetEdit) **`Full` `FOSS`**    
+   	- [IPFS Lite](https://gitlab.com/remmer.wilts/ipfs-lite) **`Full` `FOSS`**    
+   	- [Stryker](https://github.com/stryker-project/app) **`MD-` `FOSS`**
+   	- [notabug](https://github.com/Smooth-E/notabug-mobile) **`TODO` `FOSS`**
+   	- [Zoho Apptics](https://play.google.com/store/apps/details?id=com.zoho.apptics) **`MD-` `Monet`**
+   	- [Maybe](https://1drv.ms/u/s!Atk49Scq_BtYhHpVn8A3ZDu-aKHX?e=51dtFM) **`Full`**
+   	- [DPITunnel](https://github.com/nomoresat/DPITunnel-android) **`Monet` `FOSS`**
+   	- [CodeAssist](https://github.com/Deenu143/CodeAssist-ALPHA-0.2.9) **`MD-` `Multi` `FOSS`**
+---
+### [#️⃣Root/ADB](#applist-menu)
+- **Manager**   
+   	- [Magisk Monet](https://github.com/datnerdguy/Magisk-Monet) **`Full` `FOSS`**    
+   	- [Magisk Delta](https://github.com/HuskyDG/magisk-files) **`-MD` `FOSS`**
+   	- [LSPosed Manager](https://github.com/LSPosed/LSPosed) **`Full` `Multi` `FOSS`**    
+   	- [KernelSU](https://kernelsu.org/) **`Full` `FOSS`**    
+   	- [MRepo](https://github.com/ya0211/MRepo) **`Full` `FOSS`**   
+   	- [FoxMMM](https://github.com/Fox2Code/FoxMagiskModuleManager) **`Full` `FOSS`**    
+   	- [Kernel Flasher](https://github.com/capntrips/KernelFlasher) **`Monet` `FOSS`**    
+- **Root Defender**    
+   	- [Ruru](https://github.com/byxiaorun/Ruru) / [Applist Detector](https://github.com/Dr-TSNG/ApplistDetector) **`Full` `FOSS`**
+- **Shizuku/Dhizuku/ADB**
+   	- [Shizuku](https://github.com/RikkaApps/Shizuku) **`Full` `Multi` `FOSS`**    
+   	- [Dhizuku](https://github.com/iamr0s/Dhizuku) **`Full` `Multi` `FOSS`**    
+   	- [ShizukuRunner](https://github.com/WuDi-ZhanShen/ShizukuRunner) **`Monet` `FOSS`**    
+   	- [WADBS](https://github.com/Smooth-E/wireless-adb-switch) **`Full` `FOSS`**    
+   	- [LSPatch](https://github.com/LSPosed/LSPatch) **`Full` `Multi` `FOSS`**
+   	- [WADB](https://play.google.com/store/apps/details?id=moe.haruue.wadb) **`Full`**
+- **Xposed Modules**    
+   	- [SIM Number Setter](https://github.com/KieronQuinn/SIMNumberSetter) **`Full` `FOSS`** 
+   	- [MIFreeForm](https://www.coolapk.com/apk/com.sunshine.freeform) **`MD-` `Monet` `FOSS`**    
+   	- [YAMF](https://github.com/duzhaokun123/YAMF) **`Full` `FOSS`**    
+   	- [Guise](https://github.com/Houvven/Guise) **`Full` `FOSS`**    
+   	- [JSHook](https://jshook.org/) **`MD` `FOSS`**    
+   	- [MIUI Extra](https://www.123pan.com/s/efK7Vv-7OBsv.html)（Password：chen）**`Full`**    
+   	- [HMSPush](https://github.com/fei-ke/HMSPush) **`Full` `FOSS`**    
+   	- [CustoMIUIzer](https://github.com/monwf/customiuizer) **`MD-` `FOSS`**    
+   	- [Thanox](https://play.google.com/store/apps/details?id=github.tornaco.android.thanos.pro) **`Full` `💴`**    
+   	- [Redirect Storage](https://play.google.com/store/apps/details?id=moe.shizuku.redirectstorage) **`Full` `💴`**     
+   	- [Hide My Applist](https://github.com/Dr-TSNG/Hide-My-Applist) **`Full` `FOSS`**
+   	- [Miller](https://github.com/UISSD/Miller) **`MD` `FOSS`**
+   	- [HCEFUnlocker](https://github.com/OLIET2357/HCEFUnlocker) **`Full`**    
+   	- [ClassicPowerMenu](https://github.com/KieronQuinn/ClassicPowerMenu) **`Full` `FOSS`**
+   	- [Tigerinthewall](https://install.appcenter.ms/users/tigerbeanst/apps/rnshareclean/distribution_groups/tigerinthewall_test_build) **`MD` `FOSS`**   
+   	- [QDReaderHook](https://github.com/xihan123/QDReadHook) **`MD` `FOSS`**
+   	- [HXReaderHook](https://github.com/xihan123/HXReadHook) **`MD-` `FOSS`**
+   	- [Android Faker](https://github.com/Xposed-Modules-Repo/com.android1500.androidfaker) **`Full` `FOSS`**    
+   	- [AOSP Mods](https://github.com/siavash79/AOSPMods) **`Full` `FOSS`**    
+   	- [AnyDebug](https://github.com/gitofleonardo/AnyDebug) **`MD` `FOSS`**    
+   	- [Launcher30](https://github.com/gitofleonardo/Launcher30) **`Full` `FOSS`**    
+   	- [ExtClipboardManager](https://github.com/gitofleonardo/ExtClipboardManager) **`MD` `FOSS`**    
+   	- [MIUINativeNotifyIcon](https://github.com/fankes/MIUINativeNotifyIcon) **`MD` `FOSS`**    
+   	- [ColorOSNotifyIcon](https://github.com/fankes/ColorOSNotifyIcon) **`MD` `FOSS`**    
+   	- [TSBattery](https://github.com/fankes/TSBattery) **`MD` `FOSS`**    
+   	- [Android Auto XLauncher Unlocked](https://github.com/Rikj000/Android-Auto-XLauncher-Unlocked) **`MD-` `FOSS`**    
+   	- [Geergit](https://github.com/Xposed-Modules-Repo/com.pyshivam.geergit) **`Full` `FOSS`**
+   	- [LuckyTool](https://github.com/luckyzyx/LuckyTool) **`MD` `FOSS`**
+   	- [StarVoyager](https://github.com/hosizoraru/StarVoyager) **`Monet` `FOSS`**
+   	- [AppLock](https://github.com/Mufanc/AppLock) **`MD-` `FOSS`**
+   	- [MiPushService](https://github.com/NihilityT/MiPushFramework) **`MD-` `FOSS`**
+   	- [WA Tweaker](https://watweaker.com/#) **`MD`**
+   	- [AppErrorsTracking](https://github.com/KitsunePie/AppErrorsTracking) **`MD-` `FOSS`**
+   	- [Media Provider Manager](https://github.com/MaterialCleaner/Media-Provider-Manager) **`MD-` `Monet` `FOSS`**
+   	- [SignHook](https://github.com/xihan123/SignHook) **`MD`**
+- **Others**  
+   	- [Byyoung Toolbox](https://www.coolapk.com/apk/com.byyoung.setting) **`Full` `💴`**    
+   	- [Blocker](https://github.com/lihenggui/blocker) **`Full` `Multi` `FOSS`**    
+   	- [DSU Sideloader](https://github.com/VegaBobo/DSU-Sideloader) **`Full` `FOSS`**    
+   	- [Cokotools](https://www.coolapk.com/apk/com.yorick.cokotools) **`Full`**    
+   	- [FDE.AI](https://github.com/feravolt/FDE.AI-docs) **`Full` `Multi` `💴`**    
+   	- [NFC Emulator](https://www.coolapk.com/apk/com.yuanwofei.cardemulator) **`MD-` `Monet` `💴`**
+   	- [Smart Dock](https://github.com/axel358/smartdock) **`Full` `FOSS`**
+   	- [Tomb](https://jinnian.lanzouy.com/iTJGC0ovdsjg) **`MD`** 
+   	- [GApps Mod](https://github.com/jacopotediosi/GAppsMod) **`Full` `FOSS`**
+   	- [VPN Hotspot](https://github.com/Mygod/VPNHotspot) **`MD` `FOSS`**
+   	- [Preload](https://github.com/feravolt/Preload-docs) **`Full` `Multi` `💴`**
+   	- [BCR](https://github.com/chenxiaolong/BCR) **`MD-` `Monet` `Multi` `FOSS`**
+   	- [Pixel IMS](https://1drv.ms/u/s!Atk49Scq_BtYhSM8SLgvT2xRvOza?e=qkm7qI) **`Full`**
+   	- [Colorblendr](https://github.com/Mahmud0808/ColorBlendr) **`Full` `FOSS`**
+---
+### [🎮Games](#applist-menu)
+- **Emulator**    
+   	- [Skyline](https://skyline-emu.com/) **`Full` `💴` `👻`**    
+   	- [Lemuroid](https://github.com/Swordfish90/Lemuroid) **`MD-` `Monet` `FOSS`**    
+   	- [Rekado](https://github.com/MenosGrante/Rekado) **`Full` `FOSS`**    
+   	- [JoiPlay](https://joiplay.org/) **`Full` `💴`**    
+   	- [Dolphin Emulator](https://github.com/dolphin-emu/dolphin) **`MD` `FOSS`**
+   	- [Yuzu Emulator](https://github.com/yuzu-emu/yuzu) **`Full` `Multi` `FOSS` `👻`**
+   	- [Engine](https://github.com/whitescent/Engine) **`Full` `FOSS`**
+- **Instruments**    
+   	- [Metronome](https://github.com/Kr0oked/Metronome) **`MD-` `Monet` `FOSS`**
+   	- [Tuner](https://github.com/thetwom/Tuner) **`MD-` `Monet` `FOSS`**
+- **Quiz**
+   	- [Trivia You](https://github.com/Bnyro/TriviaYou) **`Full` `FOSS`** 
+   	- [New Quiz](https://github.com/joaomanaia/newquiz) **`Full` `FOSS`**
+   	- [TKCompaionApp](https://codeberg.org/marco.bresciani/TKCompanionApp) **`Full` `FOSS`**
+   	- [TZI](https://github.com/marek-guran/TZI_app) **`Full` `FOSS`**
+- **Sudoku**
+   	- [LibreSudoku](https://github.com/kaajjo/Libre-Sudoku) **`Full` `FOSS`**
+   	- [Saku](https://play.google.com/store/apps/details?id=com.anafthdev.saku) **`Full`**
+- **Tic Tac Toe**
+   	- [TicTacToe](https://github.com/kafri8889/Compose-TicTacToe) **`Full` `FOSS`**
+   	- [TicTacYou](https://github.com/AykoSc/TicTacYou) **`MD` `FOSS`**
+   	- [Dooz](https://github.com/yamin8000/Dooz) **`Full` `FOSS`** 
+   	- [Material You Tic Tac Toe](https://github.com/marek-guran/Material-You-Tic-Tac-Toe) **`Full` `FOSS`**
+   	- [Zerocros](https://play.google.com/store/apps/details?id=com.pranavpandey.tictactoe) **`Full`**
+   	- [Number Tic Tac Toe](https://play.google.com/store/apps/details?id=com.yangdai.numbertic_tac_toe) **`Full` `Multi` `FOSS`**
+- **Counter**
+   	- [Score Counter](https://github.com/hegocre/ScoreCounter) **`Full` `FOSS`**    
+   	- [Counter](https://play.google.com/store/apps/details?id=rahmouni.neil.counters) **`Full`** 
+   	- [Tap Counter](https://github.com/DDR13GIT/TapCounter) **`TODO` `FOSS`**
+- **Randomizer**
+   	- [Randomix](https://github.com/m-i-n-a-r/randomix) **`Full` `FOSS`**   
+   	- [Tabletop Tools](https://github.com/mueller-ma/TabletopTools) **`Full` `FOSS`**  
+   	- [Randomizer](https://play.google.com/store/apps/details?id=com.redmerah.randomizer) **`MD`**
+   	- [Randomizer (Code Clickers)](https://play.google.com/store/apps/details?id=com.codeclickers.randomizer) **`Full`**
+- **Puzzle**
+   	- [NPuzzle](https://play.google.com/store/apps/details?id=com.anafthdev.npuzzle) **`Full`** 
+   	- [Forkyz](https://github.com/yourealwaysbe/forkyz) **`Full` `FOSS`**   
+- **Other Small Games**
+   	- [Snake Classic](https://github.com/kafri8889/Compose-Classic-Snake-Game) **`Full` `FOSS`**    
+   	- [Antimine](https://github.com/lucasnlm/antimine-android) **`Full` `FOSS`**    
+   	- [MathQ](https://play.google.com/store/apps/details?id=com.anafthdev.mathq) **`Full`**
+   	- [Cavedroid](https://play.google.com/store/apps/details?id=com.cyb3rko.cavedroid) **`MD-`**
+- **Minecraft Tools**
+   	- [Boat_H2O2 Pro](https://github.com/NaCln4c1/Boat_H2O2) **`MD-` `FOSS`** 
+   	- [Cuberite](https://github.com/cuberite/android) **`MD-` `Monet` `FOSS`**
+   	- [ProtoHax](https://github.com/hax0r31337/ProtoHax) **`Full` `Multi`**  
+- **Others**  
+   	- [Jetisteam](https://github.com/iTaysonLab/jetisteam) **`Full` `FOSS`**
+   	- [J2ME Downloader](https://github.com/zf1234d/J2me-res-store) **`MD-` `Monet` `FOSS`**    
+   	- [MyCard YGO Helper](https://www.coolapk.com/apk/xjunz.tool.mycard) **`MD-`**    
+   	- [GuessThatPokemon](https://github.com/NimaKhajehpour/GuessThatPokemon) **`MD-` `FOSS`**    
+   	- [ArkToolBox Lite](https://github.com/JamXi233/ArkToolBox-Lite) **`MD` `FOSS`**    
+   	- [TR Save Editor](https://www.coolapk.com/apk/top.juruo.terrariasaveconverter) **`Full` `Multi`**
+   	- [Harry Potter](https://github.com/BENJAHJP/harrypotter) **`Full` `FOSS`**
+   	- [PCR Tool](https://www.coolapk.com/apk/cn.wthee.pcrtool) **`Full` `Multi`**
+   	- [Yumesuki](https://github.com/nullxception/yumetsuki) **`TODO` `FOSS`**
+   	- [Croissant](https://github.com/joeloewi7178/Croissant) **`Full` `Multi` `FOSS`**
+   	- [RnSAMP](https://wws.lanzoul.com/b00bhtqd) **`MD`**
+---
+### [🪄Monet Modules](#applist-menu)
+- [Monet-All](https://github.com/YangguangZhou/Monet-All)
+- [MIUI Monet Project](https://t.me/MIUIMonetUpdate)
+- [How to make apps support Dynamic Color by yourself](https://www.coolapk1s.com/feed/38873051)
+## 🫠Epilogue
+As I'm not good at decorating this repository as nyas1, the interface may look very ugly qwq. At the same time, some apps may not appear in this repository for I haven't seen it. So if you have a good idea to decorate this repository, or if you find more Material You apps I haven't recorded here, welcome to tell me!
+
+At last, I wanna call you, let's **make Material You sweep all over the world!**
