@@ -30,6 +30,8 @@
 	- **Mastodon 客户端**
 	- **Lemmy 客户端**
 	- **其他去中心化社交平台**
+        - **微博客户端**
+	- [One](https://appservice.notion.site/App-f5954f3fd5484586b79695e145b8219f) **`Full` `💴`**
 	- **论坛**
 	- **邮件**
 	- **其他**
@@ -45,6 +47,9 @@
 	- **本地视频播放**
 	- **在线音乐播放**
 	- **本地音乐播放**
+	     - [Rhythm](https://github.com/cromaguy/Rhythm) **`Full` `FOSS` `M3E`**
+	     - [柠檬音乐](https://github.com/yangSpica27/SPICaMusic_Android) **`Full` `FOSS`**
+             - [奇妙音乐](https://github.com/magicalapp/MagicalMusic) **`Full` `FOSS`**
 	- **播客/电台**
 	- **直播**
 	- **听歌识曲**
@@ -68,6 +73,7 @@
 - **[🌐 浏览器](#浏览器)**
 - **[📖 阅读](#阅读)**
 	- **小说**
+	     - [LightNovelReader](https://github.com/dmzz-yyhyy/LightNovelReader) **`Full` `FOSS`**
 	- **RSS/新闻**
 	- **漫画**
 	- **有声书**
