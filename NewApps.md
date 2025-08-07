@@ -30,8 +30,8 @@
 	- **Mastodon 客户端**
 	- **Lemmy 客户端**
 	- **其他去中心化社交平台**
-        - **微博客户端**
-	- [One](https://appservice.notion.site/App-f5954f3fd5484586b79695e145b8219f) **`Full` `💴`**
+	- **微博客户端**
+	     - [One](https://appservice.notion.site/App-f5954f3fd5484586b79695e145b8219f) **`Full` `💴`**
 	- **论坛**
 	- **邮件**
 	- **其他**
@@ -49,7 +49,7 @@
 	- **本地音乐播放**
 	     - [Rhythm](https://github.com/cromaguy/Rhythm) **`Full` `FOSS` `M3E`**
 	     - [柠檬音乐](https://github.com/yangSpica27/SPICaMusic_Android) **`Full` `FOSS`**
-             - [奇妙音乐](https://github.com/magicalapp/MagicalMusic) **`Full` `FOSS`**
+	     - [奇妙音乐](https://github.com/magicalapp/MagicalMusic) **`Full` `FOSS`**
 	- **播客/电台**
 	- **直播**
 	- **听歌识曲**
@@ -132,8 +132,11 @@
 	- **剪贴板管理**
 	- **其他**
 - **[🧰 小工具](#小工具)**
-	- **下载器**
-	- **应用下载器**
+	- **视频下载**
+	- **应用下载**
+	- **音乐下载**
+	     - [EchoirX](https://github.com/imjyotiraditya/EchoirX) **`Full` `FOSS` `M3E`**
+	     - [音阅/敦伦调调](https://www.magicalapk.com/app/share/app?id=43967) **`Full`**
 	- **资源搜索**
 	- **网盘** 
 	- **输入法**
