@@ -109,6 +109,7 @@
 	- **GBoard 主题定制**
 	- **Monet 主题修改器**
 	- **其他**
+         - [Global Icon Pack](https://github.com/RichardLuo0/global-icon-pack-android)
 - **[⚙️ 系统工具](#%EF%B8%8F%E7%B3%BB%E7%BB%9F%E5%B7%A5%E5%85%B7)**
 	- **文件管理**
 	- **硬件信息**
